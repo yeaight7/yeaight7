@@ -27,22 +27,22 @@
   <rect x="34" y="34" width="1132" height="192" rx="18" fill="none" stroke="#27364A"/>
 
   <text x="46" y="72" class="hud">FEATURED ARTIFACT</text>
-  <text x="46" y="120" class="title">DROP NEXT PUBLIC REPO HERE</text>
-  <text x="46" y="156" class="body">swap link + title when the real repo is ready</text>
+  <text x="46" y="120" class="title">RESERVED FOR THE NEXT REAL DROP</text>
+  <text x="46" y="156" class="body">swap the link, title, and preview when the right repo goes public</text>
 
   <g transform="translate(46 182)">
     <rect width="128" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="64" y="22" class="chip" text-anchor="middle">LINK SWAP</text>
+    <text x="64" y="22" class="chip" text-anchor="middle">LINK READY</text>
     <rect x="142" width="128" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="206" y="22" class="chip" text-anchor="middle">TITLE SWAP</text>
+    <text x="206" y="22" class="chip" text-anchor="middle">TITLE READY</text>
     <rect x="284" width="128" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
     <text x="348" y="22" class="chip" text-anchor="middle">CARD SWAP</text>
   </g>
 
   <g transform="translate(872 70)">
     <rect width="220" height="120" rx="20" fill="#0E1524" stroke="#26374C"/>
-    <text x="24" y="38" class="tiny">PLACEHOLDER SLOT</text>
-    <text x="24" y="72" fill="#FFFFFF" font-family="Arial Black, Segoe UI, sans-serif" font-size="32">NEXT</text>
-    <text x="24" y="104" class="body">public repo</text>
+    <text x="24" y="38" class="tiny">ARTIFACT SLOT</text>
+    <text x="24" y="72" fill="#FFFFFF" font-family="Arial Black, Segoe UI, sans-serif" font-size="32">ARMED</text>
+    <text x="24" y="104" class="body">waiting for the right repo</text>
   </g>
 </svg>

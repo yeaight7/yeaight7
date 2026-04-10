@@ -1,6 +1,11 @@
 name: Readme Assets
 
 on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "profile-summary-card-output/**"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -9,42 +14,18 @@ permissions:
   contents: write
 
 jobs:
-  update-assets:
+  summary-cards:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHRS_PAT }}
         with:
-          node-version: "20"
-
-      - name: Verify GHRS_PAT
-        env:
-          GHRS_PAT: ${{ secrets.GHRS_PAT }}
-        run: |
-          if [ -z "$GHRS_PAT" ]; then
-            echo "GHRS_PAT secret is required to generate private telemetry assets." >&2
-            exit 1
-          fi
-
-      - name: Generate self-hosted telemetry cards
-        env:
-          GHRS_PAT: ${{ secrets.GHRS_PAT }}
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: node scripts/generate-telemetry-cards.mjs assets/generated/stats.svg assets/generated/languages.svg "$GITHUB_REPOSITORY_OWNER"
-
-      - name: Generate trophy rack
-        env:
-          GHRS_PAT: ${{ secrets.GHRS_PAT }}
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: node scripts/generate-trophy-rack.mjs assets/generated/trophy-rack.svg "$GITHUB_REPOSITORY_OWNER"
-
-      - name: Commit generated assets
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/*.svg
-          git diff --staged --quiet && exit 0
-          git commit -m "Update README telemetry assets"
-          git push
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 2
+          AUTO_PUSH: true

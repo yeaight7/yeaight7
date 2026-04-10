@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1100&color=00E7FF&center=true&vCenter=true&width=1000&lines=live+spotify+%2F+self-hosted+telemetry+%2F+hidden+panels+online;signal+first+%2F+builder+mindset+%2F+cyberpunk+surface;profile+overview+overclocked+for+impact" alt="Animated typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&pause=1000&center=true&vCenter=true&width=600&lines=search+destroy+build;brace+for+impact;survive;keep+the+signal+alive" alt="motto" />
 </div>
 
 <div align="center">
@@ -17,8 +17,8 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=yeaight7&style=for-the-badge&color=00e7ff&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/yeaight7?style=for-the-badge&color=ff4da6&labelColor=0d1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/yeaight7?style=for-the-badge&color=ffe66d&labelColor=0d1117" alt="GitHub stars" />
+  <!-- <img src="https://img.shields.io/github/followers/yeaight7?style=for-the-badge&color=ff4da6&labelColor=0d1117" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/yeaight7?style=for-the-badge&color=ffe66d&labelColor=0d1117" alt="GitHub stars" /> -->
 </div>
 
 ## Mission Control
@@ -40,13 +40,13 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="40%" align="center">
       <div align="center"></div>
       <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&redirect=true">
         <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&cover_image=true&theme=default&show_offline=false&background_color=0d1117&interchange=true&profanity=false&bar_color=ff4da6" alt="spotify-github-profile" width="100%" />
       </a>
     </td>
-    <td width="50%" align="center">
+    <td width="40%" align="center">
       <div align="center"></div>
       <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c">
         <img src="./assets/spotify-profile-vertical.svg" alt="Vertical Spotify profile banner" width="100%" />
@@ -57,10 +57,12 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
 
 ## Live Telemetry
 
+Summary cards sync into `./profile-summary-card-output/2077/` through GitHub Actions.
+
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="./assets/generated/stats.svg" alt="Local GitHub stats card" width="100%" />
+      <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
     </td>
     <td width="50%" align="center">
       <img src="https://streak-stats.demolab.com?user=yeaight7&background=0D1117&border=30363D&ring=00E7FF&fire=FF4DA6&currStreakLabel=00E7FF&sideLabels=FF4DA6&dates=9FB3C8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak" width="100%" />
@@ -68,16 +70,16 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="./assets/generated/languages.svg" alt="Local languages card" width="100%" />
+      <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" alt="Repositories per language card" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="./assets/generated/trophy-rack.svg" alt="Local trophy rack" width="100%" />
+      <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="Productive time card" width="100%" />
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yeaight7&bg_color=0D1117&color=00E7FF&line=FF4DA6&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub activity graph" />
+  <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub profile details card" width="100%" />
 </div>
 
 ## Hidden Panels
@@ -91,10 +93,10 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
   <br/>
 
   ```txt
-  archetype    : signal-first builder
-  taste        : cyberpunk HUDs / hard contrast / deliberate impact
-  specialty    : loud interfaces, sharp systems, clean execution
-  current      : turning a profile page into a control surface
+  archetype    : interface-heavy builder
+  taste        : neon HUDs / hard contrast / motion with intent
+  build style  : ship bold surfaces / keep the system clean underneath
+  current      : make the profile feel alive, not ornamental
   ```
 
   <div align="center">
@@ -109,10 +111,10 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
   <br/>
 
   ```txt
-  [ok] spotify now-playing is still live on the left flank
-  [ok] local telemetry paths are wired into /assets/generated
-  [wait] GHRS_PAT must exist before the workflow can sync private stats
-  [open] featured artifact slot is intentionally left hot-swappable
+  [ok] spotify now-playing stays live on the left flank
+  [ok] GHRS_PAT is configured for actions-side generation
+  [ok] telemetry sync target is /profile-summary-card-output/2077
+  [open] featured artifact slot is waiting for the next real drop
   ```
 
   <div align="center">
@@ -133,15 +135,15 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
   </div>
 
   This slot is a live placeholder.  
-  Drop your next public repo here by swapping the link, title, and card asset when the real project is ready.
+  Swap in the next serious public repo when the right project is ready to carry the slot.
 </details>
 
 ## Featured Artifact
 
 <div align="center">
-  <a href="https://github.com/yeaight7/Simulacion-de-Materiales">
+  <a href="https://github.com/yeaight7?tab=repositories">
     <img src="./assets/artifact-placeholder.svg" alt="Featured artifact placeholder" width="100%" />
   </a>
 </div>
 
-Swap the link and the label when the real public repo is ready to take the slot.
+Replace the link, title, and preview when the next real public artifact is ready.

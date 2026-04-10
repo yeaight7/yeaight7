@@ -100,7 +100,7 @@
     <text x="736" y="560" fill="#FFFFFF" font-size="310" font-family="Arial Black, Segoe UI, sans-serif">7</text>
   </g>
 
-  <text x="86" y="150" class="hud">SIGNAL: LIVE 🔴</text>
+  <text x="86" y="150" class="hud">SIGNAL: LIVE</text>
   <text x="86" y="248" class="title">YEAIGHT7</text>
   <text x="90" y="292" class="sub">THE UNDISPUTED GOAT</text>
 
@@ -109,11 +109,11 @@
   <circle cx="706" cy="320" r="4" fill="#FF4DA6"/>
 
   <text x="88" y="362" class="tiny">OPERATING MODE</text>
-  <text x="88" y="390" class="label">overclocked builder</text>
+  <text x="88" y="390" class="label">mythic flex // overclocked builder</text>
   <text x="88" y="426" class="tiny">SPECIALTY</text>
   <text x="88" y="454" class="label">loud interfaces, sharp systems, clean execution</text>
   <text x="88" y="490" class="tiny">CURRENT DIRECTIVE</text>
-  <text x="88" y="518" class="label">search, destroy, build</text>
+  <text x="88" y="518" class="label">turn signal into impact</text>
 
   <g transform="translate(86 540)">
     <rect width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
@@ -129,7 +129,7 @@
   <g transform="translate(846 104)">
     <rect width="362" height="428" rx="26" fill="url(#panel)" stroke="#28374B"/>
     <text x="28" y="42" class="hud">CONTROL DECK</text>
-    <text x="28" y="67" class="micro">ANIMATED SVG / LIVE WIDGET READY / DARK HUD</text>
+    <text x="28" y="67" class="micro">ANIMATED SVG / LOCAL TELEMETRY / DARK HUD</text>
 
     <g transform="translate(250 180)">
       <circle r="86" stroke="#223247" stroke-width="1.5" fill="none"/>
@@ -159,20 +159,20 @@
       <rect width="114" height="92" rx="18" fill="#0F1724" stroke="#23344A"/>
       <text x="18" y="28" class="tiny">VISUAL</text>
       <text x="18" y="64" class="value">A+</text>
-      <text x="18" y="80" class="micro">eye-catching first pass</text>
+      <text x="18" y="80" class="micro">loud and precise</text>
     </g>
 
     <g transform="translate(28 214)">
       <rect width="114" height="92" rx="18" fill="#0F1724" stroke="#23344A"/>
       <text x="18" y="28" class="tiny">MOTION</text>
       <text x="18" y="64" class="value">ON</text>
-      <text x="18" y="80" class="micro">subtle animated loops</text>
+      <text x="18" y="80" class="micro">motion without clutter</text>
     </g>
 
     <g transform="translate(28 324)">
       <rect width="114" height="74" rx="18" fill="#0F1724" stroke="#23344A"/>
-      <text x="18" y="28" class="tiny">CHAOS</text>
-      <text x="18" y="55" class="value blink">77</text>
+      <text x="18" y="28" class="tiny">FOCUS</text>
+      <text x="18" y="55" class="value blink">99</text>
     </g>
 
     <g transform="translate(180 308)">
