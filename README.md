@@ -11,7 +11,6 @@
 <div align="center">
   <a href="#spotify-signal"><img src="https://img.shields.io/badge/OPEN-spotify_signal-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify Signal" /></a>
   <a href="#live-telemetry"><img src="https://img.shields.io/badge/OPEN-live_telemetry-00E7FF?style=for-the-badge&labelColor=0D1117" alt="Open Live Telemetry" /></a>
-  <a href="#hidden-panels"><img src="https://img.shields.io/badge/OPEN-hidden_panels-FF4DA6?style=for-the-badge&labelColor=0D1117" alt="Open Hidden Panels" /></a>
   <a href="#featured-artifact"><img src="https://img.shields.io/badge/OPEN-featured_artifact-FFE66D?style=for-the-badge&labelColor=0D1117" alt="Open Featured Artifact" /></a>
 </div>
 
