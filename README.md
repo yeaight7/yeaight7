@@ -28,14 +28,11 @@
 yeaight7
 
 > mode
-overclocked profile README / live widgets / expandable panels
+overclocked yeaight7.ultra
 
 > design_brief
 make it loud, animated, and impossible to scroll past
 ```
-
-I like profile READMEs that feel more like a launch screen than a business card.  
-This first pass leans into neon telemetry, animated SVG art, live GitHub widgets, and clickable panels that make the page feel a little more playable.
 
 <table>
   <tr>
@@ -83,8 +80,6 @@ This first pass leans into neon telemetry, animated SVG art, live GitHub widgets
   <a href="https://spotify-github-profile.kittinanx.com/api/login"><img src="https://img.shields.io/badge/ACTIVATE-LIVE_WIDGET-00E7FF?style=for-the-badge&labelColor=0D1117" alt="Activate live widget" /></a>
 </div>
 
-The Spotify profile link is wired now.  
-A real now-playing card needs an authenticated backend, and the public widget endpoint for `elputoamoestabaenuso-4` currently returns an invalid token error until that service is connected to your Spotify account.
 
 ## Hidden Panels
 
