@@ -37,20 +37,14 @@ search, destroy, build
 ## Spotify Signal
 
 <table>
-  <tr>
-    <td width="40%" align="center">
-      <div align="center"></div>
-      <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&redirect=true">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&cover_image=true&theme=default&show_offline=false&background_color=0d1117&interchange=true&profanity=false&bar_color=ff4da6" alt="spotify-github-profile" width="100%" />
+    <div align="center"></div>
+    <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&redirect=true" a>
+      <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&cover_image=true&theme=default&show_offline=false&background_color=0d1117&interchange=true&profanity=false&bar_color=ff4da6" alt="spotify-github-profile" width="50%" align="center" />
       </a>
     </td>
-    <td width="40%" align="center">
-      <div align="center"></div>
-      <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c">
-        <img src="./assets/spotify-profile-vertical.svg" alt="Vertical Spotify profile banner" width="100%" />
-      </a>
-    </td>
-  </tr>
+	<div align="center">
+  	<a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/OPEN%20SPOTIFY%20PROFILE-@elputoamoestabaenuso--4-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify profile" /></a>
+	</div>
 </table>
 
 ## Live Telemetry
@@ -61,22 +55,20 @@ search, destroy, build
       <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com?user=yeaight7&background=0D1117&border=30363D&ring=00E7FF&fire=FF4DA6&currStreakLabel=00E7FF&sideLabels=FF4DA6&dates=9FB3C8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak" width="100%" />
+      <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="GitHub commits card" width="100%" />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <img src="./profile-summary-card-output/2077/1-repos-per-language.svg" alt="Repositories per language card" width="100%" />
+    <td colspan="2" align="center">
+      <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub contributions card" width="100%" />
     </td>
-    <td width="50%" align="center">
-      <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="Productive time card" width="100%" />
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" alt="Top languages by commit card" width="48%" />
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub profile details card" width="100%" />
-</div>
 
 ## Hidden Panels
 
@@ -88,14 +80,14 @@ search, destroy, build
   <summary><b>OPEN // loadout.cfg</b></summary>
   <br/>
 
-  ```txt
-  archetype    : interface-heavy builder
-  taste        : neon HUDs / hard contrast / motion with intent
-  build style  : ship bold surfaces / keep the system clean underneath
-  current      : make the profile feel alive, not ornamental
-  ```
+```txt
+  archetype    : builder with one foot in interface design and one in ML systems
+  stack        : Python / TypeScript / MATLAB / RL / cybersecurity workflows
+  taste        : neon surfaces, sharp hierarchy, motion with intent
+  current      : making technical work feel as alive as the code behind it
+```
 
-  <div align="center">
+<div align="center">
     <a href="https://github.com/yeaight7?tab=repositories"><img src="https://img.shields.io/badge/REPO_GRID-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Repo grid" /></a>
     <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/SPOTIFY_SIGNAL-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Spotify signal" /></a>
     <a href="https://www.linkedin.com/in/javier-rivero-iglesias"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
@@ -106,14 +98,14 @@ search, destroy, build
   <summary><b>OPEN // signal.log</b></summary>
   <br/>
 
-  ```txt
-  [ok] spotify now-playing stays live on the left flank
-  [ok] GHRS_PAT is configured for actions-side generation
-  [ok] telemetry sync target is /profile-summary-card-output/2077
-  [open] featured artifact slot is waiting for the next real drop
-  ```
+```txt
+  [ok] summary cards are self-hosted through actions with GHRS_PAT
+  [ok] telemetry is pinned to the 2077 theme output
+  [ok] commits + last-12-month contributions are both live on the board
+  [live] featured repo is now TFG_CYBER_AI
+```
 
-  <div align="center">
+<div align="center">
     <a href="https://github.com/yeaight7?tab=stars"><img src="https://img.shields.io/badge/STAR_CACHE-FFE66D?style=for-the-badge&logo=github&logoColor=black&labelColor=0D1117" alt="Star cache" /></a>
     <a href="https://github.com/yeaight7?tab=followers"><img src="https://img.shields.io/badge/FOLLOW_SIGNAL-00E7FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Follow signal" /></a>
     <a href="https://github.com/yeaight7/actions"><img src="https://img.shields.io/badge/ACTIONS_CORE-FF4DA6?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0D1117" alt="Actions core" /></a>
@@ -124,20 +116,34 @@ search, destroy, build
   <summary><b>OPEN // artifact-slot</b></summary>
   <br/>
 
-  <div align="center">
-    <a href="https://github.com/yeaight7?tab=repositories">
-      <img src="./assets/artifact-placeholder.svg" alt="Featured artifact placeholder preview" width="100%" />
+<div align="center">
+    <a href="https://github.com/yeaight7/TFG_CYBER_AI">
+      <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact preview" width="100%" />
     </a>
   </div>
 
-  This slot is a live placeholder.  
-  Swap in the next serious public repo when the right project is ready to carry the slot.
+```txt
+  repo         : TFG_CYBER_AI
+  focus        : reinforcement-learning defender for malicious traffic detection and blocking
+  core data    : CICIDS2017 (~2.8M flows)
+  best run     : 0.9986 accuracy / 0.9995 attack recall / 0.9988 F1
+  shape        : code + datasets + docs + report + experiments
+```
+
 </details>
 
 ## Featured Artifact
 
 <div align="center">
-  <a href="https://github.com/yeaight7?tab=repositories">
-    <img src="./assets/artifact-placeholder.svg" alt="Featured artifact placeholder" width="100%" />
+  <a href="https://github.com/yeaight7/TFG_CYBER_AI">
+    <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact" width="100%" />
   </a>
 </div>
+
+<div align="center">
+  <a href="https://github.com/yeaight7/TFG_CYBER_AI"><img src="https://img.shields.io/badge/TFG__CYBER__AI-RL%20Defender-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="TFG_CYBER_AI repo" /></a>
+  <img src="https://img.shields.io/badge/CICIDS2017-2.8M%20flows-FF4DA6?style=for-the-badge&labelColor=0D1117" alt="CICIDS2017 dataset" />
+  <img src="https://img.shields.io/badge/QRDQN-distributional%20RL-00E7FF?style=for-the-badge&labelColor=0D1117" alt="QRDQN" />
+</div>
+
+`TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.

@@ -30,12 +30,12 @@
   <rect width="1280" height="280" rx="28" fill="url(#scan)" opacity="0.35"/>
 
   <text x="42" y="70" class="hud">HIDDEN PANELS CORE</text>
-  <text x="42" y="98" class="title">OPEN THE MODULES BELOW</text>
-  <text x="42" y="122" class="tiny">DETAILS / BADGES / TERMINAL LOGS / HOT-SWAPPABLE SLOT</text>
+  <text x="42" y="98" class="title">TACTICAL FILES ONLINE</text>
+  <text x="42" y="122" class="tiny">LOADOUT / LIVE SIGNAL / FEATURED ARTIFACT / ALL SYSTEMS HOT</text>
 
   <g transform="translate(42 154)">
     <rect width="350" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 01</text>
+    <text x="20" y="27" class="tiny">MODULE 01 // IDENTITY</text>
     <text x="20" y="50" class="label">loadout.cfg</text>
     <rect x="230" y="18" width="12" height="32" rx="6" fill="#00E7FF">
       <animate attributeName="height" values="32;18;32" dur="1.2s" repeatCount="indefinite"/>
@@ -50,7 +50,7 @@
 
   <g transform="translate(430 154)">
     <rect width="350" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 02</text>
+    <text x="20" y="27" class="tiny">MODULE 02 // LIVE LOG</text>
     <text x="20" y="50" class="label">signal.log</text>
     <line x1="226" y1="22" x2="318" y2="22" stroke="#2A3D55" stroke-width="6" stroke-linecap="round"/>
     <line x1="226" y1="38" x2="300" y2="38" stroke="#00E7FF" stroke-width="6" stroke-linecap="round">
@@ -63,10 +63,10 @@
 
   <g transform="translate(818 154)">
     <rect width="420" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 03</text>
+    <text x="20" y="27" class="tiny">MODULE 03 // ARTIFACT</text>
     <text x="20" y="50" class="label">artifact-slot</text>
     <rect x="262" y="18" width="126" height="32" rx="16" fill="#101827" stroke="#2D3E53"/>
-    <text x="325" y="39" class="tiny" text-anchor="middle">SWAP READY</text>
+    <text x="325" y="39" class="tiny" text-anchor="middle">TFG_CYBER_AI</text>
   </g>
 
   <rect x="36" y="30" width="1208" height="10" fill="#00E7FF" opacity="0.07">

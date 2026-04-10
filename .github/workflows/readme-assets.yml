@@ -29,3 +29,13 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 2
           AUTO_PUSH: true
+      - name: Postprocess summary cards
+        run: node scripts/postprocess-summary-cards.mjs 2077
+      - name: Commit postprocessed summary cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git diff --staged --quiet && exit 0
+          git commit -m "Postprocess summary cards"
+          git push
