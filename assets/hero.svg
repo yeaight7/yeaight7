@@ -102,28 +102,28 @@
 
   <text x="86" y="150" class="hud">SIGNAL: LIVE 🔴</text>
   <text x="86" y="248" class="title">YEAIGHT7</text>
-  <text x="90" y="292" class="sub">THE UNDISPUTABLE GOAT</text>
+  <text x="90" y="292" class="sub">THE UNDISPUTED GOAT</text>
 
   <line x1="86" y1="320" x2="706" y2="320" stroke="#2E415E" stroke-width="2"/>
   <circle cx="86" cy="320" r="4" fill="#00E7FF"/>
   <circle cx="706" cy="320" r="4" fill="#FF4DA6"/>
 
   <text x="88" y="362" class="tiny">OPERATING MODE</text>
-  <text x="88" y="390" class="label">overclocked specimen</text>
-  <text x="88" y="426" class="tiny">SUBJECT DESCRIPTION</text>
-  <text x="88" y="454" class="label">fill this in with something cool</text>
-  <text x="88" y="490" class="tiny">another cool idea</text>
-  <text x="88" y="518" class="label">complete this accordingly</text>
+  <text x="88" y="390" class="label">overclocked builder</text>
+  <text x="88" y="426" class="tiny">SPECIALTY</text>
+  <text x="88" y="454" class="label">loud interfaces, sharp systems, clean execution</text>
+  <text x="88" y="490" class="tiny">CURRENT DIRECTIVE</text>
+  <text x="88" y="518" class="label">search, destroy, build</text>
 
   <g transform="translate(86 540)">
     <rect width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
-    <text x="22" y="22" class="tagText">VISUAL</text>
+    <text x="59" y="22" class="tagText" text-anchor="middle">VISUAL</text>
     <rect x="132" width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
-    <text x="158" y="22" class="tagText">BUILD</text>
+    <text x="191" y="22" class="tagText" text-anchor="middle">SHIP</text>
     <rect x="264" width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
-    <text x="290" y="22" class="tagText">SHIP</text>
+    <text x="323" y="22" class="tagText" text-anchor="middle">FLEX</text>
     <rect x="396" width="146" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
-    <text x="435" y="22" class="tagText">REPEAT</text> <!-- these words must be centered, no matter what you write here, try to make it centered to the box rect-->
+    <text x="469" y="22" class="tagText" text-anchor="middle">REPEAT</text>
   </g>
 
   <g transform="translate(846 104)">
