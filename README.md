@@ -34,8 +34,6 @@ overclocked builder
 search, destroy, build
 ```
 
-Cyberpunk shell up front. Live music on the flank. Local telemetry wired into the core.
-
 ## Spotify Signal
 
 <table>
@@ -56,8 +54,6 @@ Cyberpunk shell up front. Live music on the flank. Local telemetry wired into th
 </table>
 
 ## Live Telemetry
-
-Summary cards sync into `./profile-summary-card-output/2077/` through GitHub Actions.
 
 <table>
   <tr>
@@ -145,5 +141,3 @@ Summary cards sync into `./profile-summary-card-output/2077/` through GitHub Act
     <img src="./assets/artifact-placeholder.svg" alt="Featured artifact placeholder" width="100%" />
   </a>
 </div>
-
-Replace the link, title, and preview when the next real public artifact is ready.
