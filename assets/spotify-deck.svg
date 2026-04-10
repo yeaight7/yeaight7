@@ -1,0 +1,115 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Spotify deck placeholder</title>
+  <desc id="desc">Animated audio deck card prepared for a future Spotify now playing widget.</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="26" x2="680" y2="394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101625"/>
+      <stop offset="1" stop-color="#090C13"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="24" y1="24" x2="696" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E7FF"/>
+      <stop offset="0.5" stop-color="#FF4DA6"/>
+      <stop offset="1" stop-color="#7CFFB2"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="74" y1="112" x2="266" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4DA6"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#00E7FF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .tiny { fill:#89A1B9; font:700 12px 'Courier New', monospace; letter-spacing:2px; }
+      .hud { fill:#8FF4FF; font:800 16px 'Segoe UI', Tahoma, sans-serif; letter-spacing:3px; }
+      .title { fill:#FFFFFF; font:900 30px 'Arial Black', 'Segoe UI', sans-serif; letter-spacing:1px; }
+      .body { fill:#DCE7F2; font:600 16px 'Segoe UI', Tahoma, sans-serif; }
+      .soft { fill:#99ABC0; font:600 14px 'Segoe UI', Tahoma, sans-serif; }
+      .dash { stroke-dasharray:12 8; animation:dash 16s linear infinite; }
+      .pulse { animation:pulse 3s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset:-240; } }
+      @keyframes pulse {
+        0%,100% { opacity:0.55; }
+        50% { opacity:1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="684" height="384" rx="22" fill="none" stroke="url(#edge)" stroke-width="2.5" class="dash"/>
+  <rect x="34" y="34" width="652" height="352" rx="20" fill="none" stroke="#27364A"/>
+
+  <text x="58" y="72" class="hud">AUDIO DECK</text>
+  <text x="58" y="95" class="tiny">SPOTIFY MODULE / ARMED FOR NEXT PASS</text>
+
+  <g transform="translate(58 118)">
+    <rect width="206" height="206" rx="28" fill="#0F1725" stroke="#2A3950"/>
+    <rect x="16" y="16" width="174" height="174" rx="22" fill="url(#cover)"/>
+    <circle cx="103" cy="103" r="52" fill="#0D1117" fill-opacity="0.36" stroke="#D9F9FF" stroke-opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="0 103 103" to="360 103 103" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="103" cy="103" r="18" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.8"/>
+    <path d="M62 142C85 122 124 117 145 129" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M74 158C95 144 122 142 139 151" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(302 126)">
+    <text x="0" y="0" class="tiny">STATUS</text>
+    <text x="0" y="36" class="title">SPOTIFY PROFILE LINKED</text>
+    <text x="0" y="70" class="body">Profile handle locked: elputoamoestabaenuso-4</text>
+    <text x="0" y="98" class="body">The art card now points at your Spotify page.</text>
+    <text x="0" y="126" class="body">Live now-playing unlocks after widget auth.</text>
+
+    <g transform="translate(0 170)">
+      <text x="0" y="0" class="tiny">EQUALIZER</text>
+      <rect x="0" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+      <rect x="30" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+      <rect x="60" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+      <rect x="90" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+      <rect x="120" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+      <rect x="150" y="28" width="18" height="78" rx="9" fill="#1B283A"/>
+
+      <rect x="0" y="58" width="18" height="48" rx="9" fill="#00E7FF">
+        <animate attributeName="y" values="58;34;58" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="48;72;48" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="30" y="42" width="18" height="64" rx="9" fill="#FF4DA6">
+        <animate attributeName="y" values="42;20;42" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="64;86;64" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="60" y="66" width="18" height="40" rx="9" fill="#FFE66D">
+        <animate attributeName="y" values="66;36;66" dur="1.45s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="40;70;40" dur="1.45s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="90" y="36" width="18" height="70" rx="9" fill="#7CFFB2">
+        <animate attributeName="y" values="36;18;36" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="70;88;70" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="120" y="50" width="18" height="56" rx="9" fill="#FFFFFF">
+        <animate attributeName="y" values="50;28;50" dur="1.35s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="56;78;56" dur="1.35s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="150" y="60" width="18" height="46" rx="9" fill="#00E7FF">
+        <animate attributeName="y" values="60;32;60" dur="1.25s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="46;74;46" dur="1.25s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(224 173)">
+      <text x="0" y="0" class="tiny">NEXT INPUT</text>
+      <rect x="0" y="20" width="134" height="38" rx="19" fill="#101826" stroke="#2C3A4E"/>
+      <text x="18" y="45" class="soft">widget auth</text>
+      <rect x="0" y="74" width="210" height="60" rx="20" fill="#0F1725" stroke="#2A3950"/>
+      <text x="18" y="103" class="body">then I can swap in</text>
+      <text x="18" y="125" class="body">a real live feed</text>
+    </g>
+  </g>
+
+  <rect x="52" y="354" width="616" height="10" fill="#00E7FF" opacity="0.08" filter="url(#glow)" class="pulse">
+    <animate attributeName="x" values="52;80;52" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

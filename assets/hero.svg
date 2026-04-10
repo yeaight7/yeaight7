@@ -1,0 +1,212 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">yeaight7 profile hero</title>
+  <desc id="desc">Animated neon control-room hero banner for a GitHub profile README.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#05070D"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="30" y1="30" x2="1250" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4DA6"/>
+      <stop offset="0.45" stop-color="#00E7FF"/>
+      <stop offset="1" stop-color="#FFE66D"/>
+    </linearGradient>
+    <linearGradient id="titleFill" x1="110" y1="150" x2="850" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#A6F8FF"/>
+      <stop offset="1" stop-color="#FF9DD0"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="850" y1="110" x2="1180" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121927"/>
+      <stop offset="1" stop-color="#0A0F1A"/>
+    </linearGradient>
+    <radialGradient id="glowPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(182 124) rotate(53.8) scale(240 200)">
+      <stop stop-color="#FF4DA6" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FF4DA6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 160) rotate(130) scale(260 260)">
+      <stop stop-color="#00E7FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#00E7FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurXL" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#17304D" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.3" fill="#17304D"/>
+    </pattern>
+    <style>
+      .tiny { fill: #8CA3BA; font: 700 13px 'Courier New', monospace; letter-spacing: 2px; }
+      .micro { fill: #7A8DA7; font: 600 11px 'Courier New', monospace; letter-spacing: 1.5px; }
+      .hud { fill: #94F4FF; font: 800 16px 'Segoe UI', Tahoma, sans-serif; letter-spacing: 3px; }
+      .sub { fill: #EAF8FF; font: 700 22px 'Trebuchet MS', sans-serif; letter-spacing: 4px; }
+      .title { fill: url(#titleFill); font: 900 104px 'Arial Black', 'Segoe UI', sans-serif; letter-spacing: 4px; }
+      .label { fill: #DCE8F5; font: 700 18px 'Segoe UI', Tahoma, sans-serif; letter-spacing: 1.2px; }
+      .value { fill: #FFFFFF; font: 900 34px 'Arial Black', 'Segoe UI', sans-serif; }
+      .tagText { fill: #F5FAFF; font: 700 15px 'Segoe UI', sans-serif; letter-spacing: 1.5px; }
+      .strokeFlow { stroke-dasharray: 16 10; animation: dash 18s linear infinite; }
+      .floatA { animation: driftA 7s ease-in-out infinite; }
+      .floatB { animation: driftB 9s ease-in-out infinite; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      .blink { animation: blink 1.8s steps(2, end) infinite; }
+      @keyframes dash {
+        to { stroke-dashoffset: -320; }
+      }
+      @keyframes driftA {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes driftB {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(14px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0.28; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="30" fill="url(#grid)" opacity="0.42"/>
+
+  <g filter="url(#blurXL)">
+    <ellipse cx="196" cy="128" rx="220" ry="160" fill="url(#glowPink)" class="floatA"/>
+    <ellipse cx="1120" cy="160" rx="240" ry="210" fill="url(#glowBlue)" class="floatB"/>
+  </g>
+
+  <rect x="22" y="22" width="1236" height="596" rx="24" fill="none" stroke="url(#frame)" stroke-width="3" class="strokeFlow"/>
+  <rect x="38" y="38" width="1204" height="564" rx="20" fill="none" stroke="#273347" stroke-width="1.5"/>
+
+  <rect x="56" y="56" width="260" height="32" rx="16" fill="#0D1523" stroke="#293A52"/>
+  <circle cx="80" cy="72" r="5" fill="#FF4DA6"/>
+  <circle cx="100" cy="72" r="5" fill="#00E7FF"/>
+  <circle cx="120" cy="72" r="5" fill="#FFE66D"/>
+  <text x="148" y="77" class="tiny">PROFILE_OVERVIEW.EXE</text>
+
+  <g opacity="0.18">
+    <text x="736" y="560" fill="#FFFFFF" font-size="310" font-family="Arial Black, Segoe UI, sans-serif">7</text>
+  </g>
+
+  <text x="86" y="180" class="hud">PUBLIC GITHUB SIGNAL</text>
+  <text x="86" y="278" class="title">YEAIGHT7</text>
+  <text x="90" y="322" class="sub">BOLD VISUALS / LIVE TELEMETRY / PLAYABLE README</text>
+
+  <line x1="86" y1="350" x2="706" y2="350" stroke="#2E415E" stroke-width="2"/>
+  <circle cx="86" cy="350" r="4" fill="#00E7FF"/>
+  <circle cx="706" cy="350" r="4" fill="#FF4DA6"/>
+
+  <text x="88" y="392" class="tiny">STATUS</text>
+  <text x="88" y="420" class="label">overclocked profile interface</text>
+  <text x="88" y="456" class="tiny">DESIGN BRIEF</text>
+  <text x="88" y="484" class="label">make it loud, animated, and hard to ignore</text>
+  <text x="88" y="520" class="tiny">CURRENT BUILD</text>
+  <text x="88" y="548" class="label">v1 cyberpop control room</text>
+
+  <g transform="translate(86 570)">
+    <rect width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
+    <text x="22" y="22" class="tagText">VISUAL</text>
+    <rect x="132" width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
+    <text x="158" y="22" class="tagText">BUILD</text>
+    <rect x="264" width="118" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
+    <text x="290" y="22" class="tagText">SHIP</text>
+    <rect x="396" width="146" height="34" rx="17" fill="#101827" stroke="#3B4A61"/>
+    <text x="420" y="22" class="tagText">REPEAT</text>
+  </g>
+
+  <g transform="translate(846 104)">
+    <rect width="362" height="428" rx="26" fill="url(#panel)" stroke="#28374B"/>
+    <text x="28" y="42" class="hud">CONTROL DECK</text>
+    <text x="28" y="67" class="micro">ANIMATED SVG / LIVE WIDGET READY / DARK HUD</text>
+
+    <g transform="translate(208 142)">
+      <circle r="86" stroke="#223247" stroke-width="1.5" fill="none"/>
+      <circle r="58" stroke="#223247" stroke-width="1.5" fill="none"/>
+      <circle r="30" stroke="#223247" stroke-width="1.5" fill="none"/>
+      <circle r="3" fill="#FFFFFF"/>
+      <circle r="86" stroke="#00E7FF" stroke-opacity="0.26" stroke-width="2" fill="none"/>
+      <g>
+        <line x1="0" y1="-86" x2="0" y2="86" stroke="#23364D" stroke-width="1"/>
+        <line x1="-86" y1="0" x2="86" y2="0" stroke="#23364D" stroke-width="1"/>
+      </g>
+      <g class="pulse">
+        <circle cx="52" cy="-32" r="8" fill="#FF4DA6" filter="url(#softGlow)"/>
+      </g>
+      <g transform="rotate(0)">
+        <line x1="0" y1="0" x2="60" y2="-58" stroke="#FFE66D" stroke-width="2.2" stroke-linecap="round">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+        </line>
+        <circle cx="60" cy="-58" r="6.5" fill="#FFE66D" filter="url(#softGlow)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <circle r="18" fill="#0F1724" stroke="#2A3D55"/>
+    </g>
+
+    <g transform="translate(28 104)">
+      <rect width="114" height="92" rx="18" fill="#0F1724" stroke="#23344A"/>
+      <text x="18" y="28" class="tiny">VISUAL</text>
+      <text x="18" y="64" class="value">A+</text>
+      <text x="18" y="80" class="micro">eye-catching first pass</text>
+    </g>
+
+    <g transform="translate(28 214)">
+      <rect width="114" height="92" rx="18" fill="#0F1724" stroke="#23344A"/>
+      <text x="18" y="28" class="tiny">MOTION</text>
+      <text x="18" y="64" class="value">ON</text>
+      <text x="18" y="80" class="micro">subtle animated loops</text>
+    </g>
+
+    <g transform="translate(28 324)">
+      <rect width="114" height="74" rx="18" fill="#0F1724" stroke="#23344A"/>
+      <text x="18" y="28" class="tiny">CHAOS</text>
+      <text x="18" y="55" class="value blink">77</text>
+    </g>
+
+    <g transform="translate(170 308)">
+      <text x="0" y="0" class="tiny">SIGNAL BARS</text>
+      <rect x="0" y="20" width="16" height="58" rx="8" fill="#1C2A3C"/>
+      <rect x="28" y="20" width="16" height="58" rx="8" fill="#1C2A3C"/>
+      <rect x="56" y="20" width="16" height="58" rx="8" fill="#1C2A3C"/>
+      <rect x="84" y="20" width="16" height="58" rx="8" fill="#1C2A3C"/>
+      <rect x="112" y="20" width="16" height="58" rx="8" fill="#1C2A3C"/>
+
+      <rect x="0" y="50" width="16" height="28" rx="8" fill="#FF4DA6">
+        <animate attributeName="y" values="50;28;50" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="28;50;28" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="28" y="36" width="16" height="42" rx="8" fill="#00E7FF">
+        <animate attributeName="y" values="36;18;36" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="42;60;42" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="56" y="44" width="16" height="34" rx="8" fill="#FFE66D">
+        <animate attributeName="y" values="44;22;44" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="34;56;34" dur="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="84" y="26" width="16" height="52" rx="8" fill="#7CFFB2">
+        <animate attributeName="y" values="26;12;26" dur="1.25s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="52;66;52" dur="1.25s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="112" y="40" width="16" height="38" rx="8" fill="#FFFFFF">
+        <animate attributeName="y" values="40;24;40" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="38;54;38" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="46" y="96" width="1188" height="12" fill="#00E7FF" opacity="0.08" filter="url(#softGlow)">
+    <animate attributeName="y" values="96;580;96" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
