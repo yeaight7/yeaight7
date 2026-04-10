@@ -23,6 +23,10 @@ for (const entry of await readdir(outputRoot, { withFileTypes: true })) {
   }
 }
 
+await rm(join(outputRoot, "README.md"), { force: true });
+await rm(join(outputRoot, targetTheme, "README.md"), { force: true });
+await rm(join(outputRoot, targetTheme, "1-repos-per-language.svg"), { force: true });
+
 for (const item of replacements) {
   const source = await readFile(item.file, "utf8");
   await writeFile(item.file, source.replace(item.search, item.replace), "utf8");

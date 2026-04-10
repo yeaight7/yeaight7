@@ -36,44 +36,48 @@ search, destroy, build
 
 ## Spotify Signal
 
-<table>
-    <div align="center"></div>
-    <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&redirect=true" a>
-      <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&cover_image=true&theme=default&show_offline=false&background_color=0d1117&interchange=true&profanity=false&bar_color=ff4da6" alt="spotify-github-profile" width="50%" align="center" />
-      </a>
-    </td>
-	<div align="center">
-  	<a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/OPEN%20SPOTIFY%20PROFILE-@elputoamoestabaenuso--4-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify profile" /></a>
-	</div>
-</table>
+<div align="center">
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=elputoamoestabaenuso-4&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0d1117&interchange=false&profanity=false&bar_color=1DB954&bar_color_cover=false" alt="Spotify now playing banner" width="92%" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/OPEN%20SPOTIFY%20PROFILE-@elputoamoestabaenuso--4-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify profile" /></a>
+</div>
 
 ## Live Telemetry
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="GitHub commits card" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub contributions card" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" alt="Top languages by commit card" width="48%" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table width="92%">
+    <tr>
+      <td width="50%" align="center">
+        <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://streak-stats.demolab.com?user=yeaight7&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" alt="GitHub streak card" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <img src="./profile-summary-card-output/2077/2-most-commit-language.svg" alt="Top languages by commit card" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="GitHub commits chart" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="GitHub contributions card" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Hidden Panels
 
 <div align="center">
-  <img src="./assets/hidden-panels-core.svg" alt="Hidden panels control board" width="100%" />
+  <img src="./assets/hidden-panels-core.svg" alt="Hidden panels control board" width="96%" />
 </div>
 
 <details>
@@ -81,10 +85,10 @@ search, destroy, build
   <br/>
 
 ```txt
-  archetype    : builder with one foot in interface design and one in ML systems
-  stack        : Python / TypeScript / MATLAB / RL / cybersecurity workflows
-  taste        : neon surfaces, sharp hierarchy, motion with intent
-  current      : making technical work feel as alive as the code behind it
+  primary lane : frontend impact + applied AI / cybersecurity systems
+  stack        : Python / TypeScript / MATLAB / RL / data-heavy workflows
+  build rule   : make it hit first, then make it hold up under scrutiny
+  current      : profile surface tuned to reflect the real work behind it
 ```
 
 <div align="center">
@@ -99,10 +103,10 @@ search, destroy, build
   <br/>
 
 ```txt
-  [ok] summary cards are self-hosted through actions with GHRS_PAT
-  [ok] telemetry is pinned to the 2077 theme output
-  [ok] commits + last-12-month contributions are both live on the board
-  [live] featured repo is now TFG_CYBER_AI
+  [ok] streak board is back and color-matched to the telemetry stack
+  [ok] commit language card now aggregates by commit, not owned repos
+  [ok] contribution panel is the exact rolling last-12-month view
+  [live] featured repo is TFG_CYBER_AI
 ```
 
 <div align="center">
@@ -118,7 +122,7 @@ search, destroy, build
 
 <div align="center">
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
-      <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact preview" width="100%" />
+      <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact preview" width="96%" />
     </a>
   </div>
 
@@ -127,7 +131,7 @@ search, destroy, build
   focus        : reinforcement-learning defender for malicious traffic detection and blocking
   core data    : CICIDS2017 (~2.8M flows)
   best run     : 0.9986 accuracy / 0.9995 attack recall / 0.9988 F1
-  shape        : code + datasets + docs + report + experiments
+  shape        : code + datasets + docs + experiments + full report pipeline
 ```
 
 </details>
@@ -136,7 +140,7 @@ search, destroy, build
 
 <div align="center">
   <a href="https://github.com/yeaight7/TFG_CYBER_AI">
-    <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact" width="100%" />
+    <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact" width="96%" />
   </a>
 </div>
 

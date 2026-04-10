@@ -1,75 +1,123 @@
-<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Hidden panels core</title>
-  <desc id="desc">Animated console header for the hidden panels section of the GitHub profile README.</desc>
+  <desc id="desc">Animated cyberpunk control board for the hidden panels section of the GitHub profile README.</desc>
   <defs>
-    <linearGradient id="bg" x1="18" y1="18" x2="1262" y2="262" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101626"/>
-      <stop offset="1" stop-color="#070A11"/>
+    <linearGradient id="bg" x1="24" y1="22" x2="1256" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12192A"/>
+      <stop offset="0.55" stop-color="#0A0F19"/>
+      <stop offset="1" stop-color="#06090F"/>
     </linearGradient>
-    <linearGradient id="edge" x1="18" y1="18" x2="1262" y2="262" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00E7FF"/>
-      <stop offset="0.5" stop-color="#FF4DA6"/>
-      <stop offset="1" stop-color="#FFE66D"/>
+    <linearGradient id="edge" x1="40" y1="30" x2="1240" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03D8F3"/>
+      <stop offset="0.5" stop-color="#FF0055"/>
+      <stop offset="1" stop-color="#FCEE0C"/>
     </linearGradient>
     <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="8" height="2" fill="#17304D" fill-opacity="0.22"/>
+      <rect width="8" height="2" fill="#17304D" fill-opacity="0.16"/>
+    </pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#18304A" stroke-opacity="0.30"/>
     </pattern>
     <style>
       .tiny { fill:#8CA3BA; font:700 12px 'Courier New', monospace; letter-spacing:2px; }
-      .hud { fill:#94F4FF; font:800 17px 'Segoe UI', Tahoma, sans-serif; letter-spacing:3px; }
+      .micro { fill:#6E88A3; font:700 10px 'Courier New', monospace; letter-spacing:1.8px; }
+      .hud { fill:#94F4FF; font:800 16px 'Segoe UI', Tahoma, sans-serif; letter-spacing:3px; }
       .title { fill:#FFFFFF; font:900 36px 'Arial Black', 'Segoe UI', sans-serif; letter-spacing:1px; }
-      .label { fill:#DCE7F2; font:700 16px 'Segoe UI', Tahoma, sans-serif; }
-      .dash { stroke-dasharray:14 10; animation:dash 18s linear infinite; }
-      @keyframes dash { to { stroke-dashoffset:-320; } }
+      .label { fill:#E1EDF7; font:700 16px 'Segoe UI', Tahoma, sans-serif; }
+      .chip { fill:#F5FAFF; font:700 12px 'Segoe UI', Tahoma, sans-serif; letter-spacing:1.1px; }
+      .dash { stroke-dasharray:16 11; animation:dash 18s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset:-360; } }
     </style>
   </defs>
 
-  <rect width="1280" height="280" rx="28" fill="url(#bg)"/>
-  <rect x="18" y="18" width="1244" height="244" rx="22" fill="none" stroke="url(#edge)" stroke-width="2.5" class="dash"/>
-  <rect x="34" y="34" width="1212" height="212" rx="18" fill="none" stroke="#27364A"/>
-  <rect width="1280" height="280" rx="28" fill="url(#scan)" opacity="0.35"/>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#scan)" opacity="0.5"/>
+  <rect x="18" y="18" width="1244" height="284" rx="22" fill="none" stroke="url(#edge)" stroke-width="2.5" class="dash"/>
+  <rect x="34" y="34" width="1212" height="252" rx="18" fill="none" stroke="#27364A"/>
+  <path d="M930 34H1182L1246 98V286H930V34Z" fill="#0D1421" fill-opacity="0.42"/>
 
-  <text x="42" y="70" class="hud">HIDDEN PANELS CORE</text>
-  <text x="42" y="98" class="title">TACTICAL FILES ONLINE</text>
-  <text x="42" y="122" class="tiny">LOADOUT / LIVE SIGNAL / FEATURED ARTIFACT / ALL SYSTEMS HOT</text>
+  <g transform="translate(44 46)">
+    <circle cx="10" cy="10" r="5" fill="#FF0055"/>
+    <circle cx="30" cy="10" r="5" fill="#FCEE0C"/>
+    <circle cx="50" cy="10" r="5" fill="#03D8F3"/>
+  </g>
 
-  <g transform="translate(42 154)">
-    <rect width="350" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 01 // IDENTITY</text>
-    <text x="20" y="50" class="label">loadout.cfg</text>
-    <rect x="230" y="18" width="12" height="32" rx="6" fill="#00E7FF">
-      <animate attributeName="height" values="32;18;32" dur="1.2s" repeatCount="indefinite"/>
+  <text x="44" y="78" class="hud">HIDDEN PANELS CORE</text>
+  <text x="44" y="108" class="title">TACTICAL FILES ONLINE</text>
+  <text x="44" y="132" class="tiny">LOADOUT / LIVE LOG / ARTIFACT CHANNEL / SURFACE INDEX LOCKED</text>
+
+  <g transform="translate(948 54)">
+    <rect width="250" height="86" rx="18" fill="#0F1724" stroke="#26374C"/>
+    <text x="20" y="28" class="tiny">SYSTEM STATUS</text>
+    <rect x="20" y="42" width="64" height="24" rx="12" fill="#101827" stroke="#2B3D55"/>
+    <text x="52" y="58" class="micro" text-anchor="middle">SPOTIFY</text>
+    <rect x="94" y="42" width="78" height="24" rx="12" fill="#101827" stroke="#2B3D55"/>
+    <text x="133" y="58" class="micro" text-anchor="middle">TELEMETRY</text>
+    <rect x="182" y="42" width="48" height="24" rx="12" fill="#101827" stroke="#2B3D55"/>
+    <text x="206" y="58" class="micro" text-anchor="middle">LIVE</text>
+  </g>
+
+  <g transform="translate(44 168)">
+    <rect width="366" height="78" rx="20" fill="#0F1724" stroke="#26374C"/>
+    <text x="22" y="28" class="tiny">MODULE 01 // LOADOUT</text>
+    <text x="22" y="54" class="label">frontend impact + applied AI / cyber systems</text>
+    <text x="22" y="72" class="micro">PYTHON / TS / MATLAB / RL / DATA PIPELINES</text>
+    <rect x="288" y="18" width="12" height="42" rx="6" fill="#03D8F3">
+      <animate attributeName="height" values="42;20;42" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="18;40;18" dur="1.5s" repeatCount="indefinite"/>
     </rect>
-    <rect x="250" y="14" width="12" height="36" rx="6" fill="#FF4DA6">
-      <animate attributeName="height" values="36;24;36" dur="1.3s" repeatCount="indefinite"/>
+    <rect x="308" y="24" width="12" height="36" rx="6" fill="#FF0055">
+      <animate attributeName="height" values="36;18;36" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="24;42;24" dur="1.3s" repeatCount="indefinite"/>
     </rect>
-    <rect x="270" y="20" width="12" height="30" rx="6" fill="#FFE66D">
-      <animate attributeName="height" values="30;16;30" dur="1.4s" repeatCount="indefinite"/>
+    <rect x="328" y="30" width="12" height="30" rx="6" fill="#FCEE0C">
+      <animate attributeName="height" values="30;16;30" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="30;44;30" dur="1.1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <g transform="translate(430 154)">
-    <rect width="350" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 02 // LIVE LOG</text>
-    <text x="20" y="50" class="label">signal.log</text>
-    <line x1="226" y1="22" x2="318" y2="22" stroke="#2A3D55" stroke-width="6" stroke-linecap="round"/>
-    <line x1="226" y1="38" x2="300" y2="38" stroke="#00E7FF" stroke-width="6" stroke-linecap="round">
-      <animate attributeName="x2" values="300;334;300" dur="2.8s" repeatCount="indefinite"/>
+  <g transform="translate(434 168)">
+    <rect width="348" height="78" rx="20" fill="#0F1724" stroke="#26374C"/>
+    <text x="22" y="28" class="tiny">MODULE 02 // SIGNAL.LOG</text>
+    <text x="22" y="54" class="label">commit-language stack / rolling-year contributions</text>
+    <line x1="22" y1="66" x2="130" y2="66" stroke="#2A3D55" stroke-width="6" stroke-linecap="round"/>
+    <line x1="22" y1="66" x2="124" y2="66" stroke="#03D8F3" stroke-width="6" stroke-linecap="round">
+      <animate attributeName="x2" values="124;210;124" dur="2.9s" repeatCount="indefinite"/>
     </line>
-    <line x1="226" y1="54" x2="286" y2="54" stroke="#FF4DA6" stroke-width="6" stroke-linecap="round">
-      <animate attributeName="x2" values="286;322;286" dur="3.1s" repeatCount="indefinite"/>
-    </line>
+    <path d="M214 58L236 50L256 56L276 34L298 42L320 26" stroke="#FF0055" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="214" cy="58" r="3" fill="#FF0055"/>
+    <circle cx="236" cy="50" r="3" fill="#FF0055"/>
+    <circle cx="256" cy="56" r="3" fill="#FF0055"/>
+    <circle cx="276" cy="34" r="3" fill="#FF0055"/>
+    <circle cx="298" cy="42" r="3" fill="#FF0055"/>
+    <circle cx="320" cy="26" r="3" fill="#FF0055"/>
   </g>
 
-  <g transform="translate(818 154)">
-    <rect width="420" height="68" rx="18" fill="#0E1524" stroke="#26374C"/>
-    <text x="20" y="27" class="tiny">MODULE 03 // ARTIFACT</text>
-    <text x="20" y="50" class="label">artifact-slot</text>
-    <rect x="262" y="18" width="126" height="32" rx="16" fill="#101827" stroke="#2D3E53"/>
-    <text x="325" y="39" class="tiny" text-anchor="middle">TFG_CYBER_AI</text>
+  <g transform="translate(806 168)">
+    <rect width="430" height="78" rx="20" fill="#0F1724" stroke="#26374C"/>
+    <text x="22" y="28" class="tiny">MODULE 03 // ARTIFACT SLOT</text>
+    <text x="22" y="54" class="label">yeaight7 / TFG_CYBER_AI</text>
+    <text x="22" y="72" class="micro">QRDQN / CICIDS2017 / CHECK A-B-C / REPORT PIPELINE</text>
+    <rect x="286" y="18" width="120" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="346" y="40" class="micro" text-anchor="middle">FEATURED</text>
   </g>
 
-  <rect x="36" y="30" width="1208" height="10" fill="#00E7FF" opacity="0.07">
-    <animate attributeName="y" values="30;226;30" dur="7.5s" repeatCount="indefinite"/>
+  <g transform="translate(44 268)">
+    <text x="0" y="-12" class="tiny">SURFACE SYNC</text>
+    <rect width="1192" height="12" rx="6" fill="#101827" stroke="#26374C"/>
+    <rect width="368" height="12" rx="6" fill="#03D8F3">
+      <animate attributeName="width" values="368;772;368" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="470" width="18" height="12" rx="6" fill="#FF0055">
+      <animate attributeName="x" values="470;1034;470" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="548" width="18" height="12" rx="6" fill="#FCEE0C">
+      <animate attributeName="x" values="548;1104;548" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="40" y="34" width="1198" height="10" fill="#03D8F3" opacity="0.08">
+    <animate attributeName="y" values="34;276;34" dur="8.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
