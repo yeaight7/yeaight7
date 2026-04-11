@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - "profile-summary-card-output/**"
+      - "assets/generated/**"
       - "README.md"
   schedule:
     - cron: "0 8 * * *"
@@ -32,6 +33,10 @@ jobs:
           AUTO_PUSH: false
       - name: Postprocess summary cards
         run: node scripts/postprocess-summary-cards.mjs 2077
+      - name: Cache streak card locally
+        run: |
+          mkdir -p assets/generated
+          curl --fail --silent --show-error --location "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" -o assets/generated/streak-stats.svg
       - name: Refresh hidden README marker
         run: |
           sed -i "s|^<!-- README_REFRESH:.* -->$|<!-- README_REFRESH: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA} -->|" README.md
@@ -39,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output README.md
+          git add -A profile-summary-card-output assets/generated README.md
           git diff --staged --quiet && exit 0
           git commit -m "Postprocess summary cards"
           git push

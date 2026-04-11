@@ -51,7 +51,7 @@ search, destroy, build
         <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
       </td>
       <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com?user=yeaight7&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" alt="GitHub streak card" width="100%" />
+        <img src="./assets/generated/streak-stats.svg" alt="GitHub streak card" width="100%" />
       </td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@ search, destroy, build
 
 ```txt
   [ok] streak board is back and color-matched to the telemetry stack
-  [ok] commit language card now aggregates by commit, not owned repos
+  [hold] language stack is hard-locked until wider commit telemetry exists
   [ok] contribution panel is the exact rolling last-12-month view
   [live] featured repo is TFG_CYBER_AI
 ```
