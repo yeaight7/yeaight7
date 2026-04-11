@@ -38,7 +38,7 @@
   <text x="48" y="160" class="body">reinforcement-learning defender for malicious traffic detection and blocking</text>
   <text x="48" y="188" class="body">CICIDS2017 experiments, QRDQN training, validation checks, docs, and report pipeline</text>
 
-  <g transform="translate(48 218)">
+  <g transform="translate(48 208)">
     <rect width="160" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
     <text x="80" y="20" class="chip" text-anchor="middle">MACHINE LEARNING</text>
     <rect x="175" width="90" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
@@ -54,31 +54,31 @@
   </g>
 
   <g transform="translate(780 60)"> <!-- RESTAMOS 66 a la x para ajustar -->
-    <rect width="410" height="184" rx="22" fill="#0F1724" stroke="#26374C"/> <!-- ahora ensanchamos el resto -->
+    <rect width="440" height="184" rx="22" fill="#0F1724" stroke="#26374C"/> <!-- ahora ensanchamos el resto -->
     <text x="24" y="30" class="tiny">BEST RUN</text>
 
     <g transform="translate(24 48)">
-      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="55" y="28" class="tiny" text-anchor="middle">ACCURACY</text>
-      <text x="55" y="68" class="metric" text-anchor="middle">0.9986</text>
-      <text x="55" y="88" class="tiny" text-anchor="middle">C03 FULL</text>
+      <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="60" y="28" class="tiny" text-anchor="middle">ACCURACY</text>
+      <text x="60" y="68" class="metric" text-anchor="middle">0.9986</text>
+      <text x="60" y="88" class="tiny" text-anchor="middle">C03 FULL</text>
     </g>
 
-    <g transform="translate(150 48)"> <!-- x+=22 -->
-      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="55" y="28" class="tiny" text-anchor="middle">RECALL</text>
-      <text x="55" y="68" class="metric" text-anchor="middle">0.9995</text>
-      <text x="55" y="88" class="tiny" text-anchor="middle">ATTACK</text>
+    <g transform="translate(160 48)"> <!-- x+=22 -->
+      <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="60" y="68" class="metric" text-anchor="middle">0.9995</text>
+      <text x="60" y="88" class="tiny" text-anchor="middle">ATTACK</text>
+      <text x="60" y="28" class="tiny" text-anchor="middle">RECALL</text>
     </g>
 
-    <g transform="translate(276 48)"> <!-- x+=44 -->
-      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="55" y="28" class="tiny" text-anchor="middle">F1</text> <!-- x+=11 -->
-      <text x="55" y="68" class="metric" text-anchor="middle">0.9988</text>
-      <text x="55" y="88" class="tiny" text-anchor="middle">CHECKED</text>
+    <g transform="translate(296 48)"> <!-- x+=44 -->
+      <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="60" y="28" class="tiny" text-anchor="middle">F1</text> <!-- x+=11 -->
+      <text x="60" y="68" class="metric" text-anchor="middle">0.9988</text>
+      <text x="60" y="88" class="tiny" text-anchor="middle">CHECKED</text>
     </g>
   </g>
 
-  <path d="M910 262H1164" stroke="#26374C"/>
-  <text x="920" y="232" class="tiny">VALIDATED RUN</text>
+  <!-- <path d="M910 262H1164" stroke="#FF0055"/> -->
+  <text x="945" y="232" class="tiny">VALIDATED RUN</text>
 </svg>
