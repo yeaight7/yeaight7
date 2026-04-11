@@ -42,10 +42,6 @@ search, destroy, build
   </a>
 </div>
 
-<!-- <div align="center">
-  <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/OPEN%20SPOTIFY%20PROFILE-@elputoamoestabaenuso--4-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify profile" /></a>
-</div> -->
-
 ## Live Telemetry
 
 <div align="center">
@@ -93,7 +89,6 @@ search, destroy, build
 
 <div align="center">
     <a href="https://github.com/yeaight7?tab=repositories"><img src="https://img.shields.io/badge/REPO_GRID-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Repo grid" /></a>
-    <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/SPOTIFY_SIGNAL-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Spotify signal" /></a>
     <a href="https://www.linkedin.com/in/javier-rivero-iglesias"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
   </div>
 </details>
