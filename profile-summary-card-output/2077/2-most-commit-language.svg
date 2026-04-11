@@ -10,15 +10,15 @@
   <text x="30" y="40" class="title">Top Languages by Commit</text>
 
   <g transform="translate(30,58)">
-    <rect y="0" width="12" height="12" fill="#3572A5"/>
+    <rect y="0" width="12" height="12" fill="#26fc00"/>
     <text x="20" y="11" class="label">Python</text>
     <rect x="128" y="0" width="164" height="12" rx="6" class="track"/>
-    <rect x="128" y="0" width="164" height="12" rx="6" fill="#3572A5"/>
+    <rect x="128" y="0" width="164" height="12" rx="6" fill="#26fc00"/>
 
-    <rect y="26" width="12" height="12" fill="#F34B7D"/>
+    <rect y="26" width="12" height="12" fill="#0059ff"/>
     <text x="20" y="37" class="label">C++</text>
     <rect x="128" y="26" width="164" height="12" rx="6" class="track"/>
-    <rect x="128" y="26" width="136" height="12" rx="6" fill="#F34B7D"/>
+    <rect x="128" y="26" width="136" height="12" rx="6" fill="#0059ff"/>
 
     <rect y="52" width="12" height="12" fill="#E38C00"/>
     <text x="20" y="63" class="label">SQL</text>
@@ -30,9 +30,9 @@
     <rect x="128" y="78" width="164" height="12" rx="6" class="track"/>
     <rect x="128" y="78" width="90" height="12" rx="6" fill="#F1E05A"/>
 
-    <rect y="104" width="12" height="12" fill="#3178C6"/>
-    <text x="20" y="115" class="label">TypeScript</text>
+    <rect y="104" width="12" height="12" fill="#c60fdf"/>
+    <text x="20" y="115" class="label">Rust</text>
     <rect x="128" y="104" width="164" height="12" rx="6" class="track"/>
-    <rect x="128" y="104" width="72" height="12" rx="6" fill="#3178C6"/>
+    <rect x="128" y="104" width="72" height="12" rx="6" fill="#c60fdf"/>
   </g>
 </svg>
