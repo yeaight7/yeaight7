@@ -40,14 +40,14 @@
                 <!-- Total Contributions label -->
                 <g transform='translate(56.666666666667, 86.5)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#03d8f3' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
-                        <tspan x='0' dy='-9'>Total</tspan><tspan x='0' dy='16'>Contributions</tspan>
+                        <tspan x='0' dy='-9'>Total</tspan>
                     </text>
                 </g>
 
                 <!-- Total Contributions range -->
                 <g transform='translate(56.666666666667, 116.5)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#8ca3ba' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
-                        <tspan x='0' dy='0'>Apr 30, 2023</tspan><tspan x='0' dy='16'>- Present</tspan>
+                        <tspan x='0' dy='0'>Current year</tspan>
                     </text>
                 </g>
             </g>

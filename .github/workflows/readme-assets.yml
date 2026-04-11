@@ -31,12 +31,12 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 2
           AUTO_PUSH: false
-      - name: Postprocess summary cards
-        run: node scripts/postprocess-summary-cards.mjs 2077
       - name: Cache streak card locally
         run: |
           mkdir -p assets/generated
           curl --fail --silent --show-error --location "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" -o assets/generated/streak-stats.svg
+      - name: Postprocess summary cards
+        run: node scripts/postprocess-summary-cards.mjs 2077
       - name: Refresh hidden README marker
         run: |
           sed -i "s|^<!-- README_REFRESH:.* -->$|<!-- README_REFRESH: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA} -->|" README.md
