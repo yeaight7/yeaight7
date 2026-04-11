@@ -41,9 +41,9 @@ search, destroy, build
   </a>
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://open.spotify.com/user/elputoamoestabaenuso-4?si=fc3fc600be024a5c"><img src="https://img.shields.io/badge/OPEN%20SPOTIFY%20PROFILE-@elputoamoestabaenuso--4-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify profile" /></a>
-</div>
+</div> -->
 
 ## Live Telemetry
 
@@ -84,8 +84,8 @@ search, destroy, build
   <br/>
 
 ```txt
-  primary lane : frontend impact + applied AI / cybersecurity systems
-  stack        : Python / TypeScript / MATLAB / RL / data-heavy workflows
+  primary lane : ML + applied AI / cybersecurity systems
+  stack        : Machine Learning / SQL / Data Engineering / RL / data-heavy workflows
   build rule   : make it hit first, then make it hold up under scrutiny
   current      : profile surface tuned to reflect the real work behind it
 ```

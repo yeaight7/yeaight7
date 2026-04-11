@@ -39,46 +39,46 @@
   <text x="48" y="188" class="body">CICIDS2017 experiments, QRDQN training, validation checks, docs, and report pipeline</text>
 
   <g transform="translate(48 218)">
-    <rect width="124" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="62" y="22" class="chip" text-anchor="middle">PYTHON</text>
-    <rect x="136" width="118" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="195" y="22" class="chip" text-anchor="middle">QRDQN</text>
-    <rect x="268" width="156" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="346" y="22" class="chip" text-anchor="middle">CICIDS2017</text>
-    <rect x="438" width="132" height="34" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="504" y="22" class="chip" text-anchor="middle">CHECK A-B-C</text>
+    <rect width="160" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="80" y="20" class="chip" text-anchor="middle">MACHINE LEARNING</text>
+    <rect x="175" width="90" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="220" y="20" class="chip" text-anchor="middle">QRDQN</text>
+    <rect x="280" width="156" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="358" y="20" class="chip" text-anchor="middle">LAB EMULATION</text>
+    <rect x="450" width="150" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="525" y="20" class="chip" text-anchor="middle">HEAVY TRAINING</text>
   </g>
 
   <g transform="translate(48 270)">
     <text class="tiny">PATH // yeaight7 / TFG_CYBER_AI / src + docs + experiments + report</text>
   </g>
 
-  <g transform="translate(846 60)">
-    <rect width="344" height="184" rx="22" fill="#0F1724" stroke="#26374C"/>
+  <g transform="translate(780 60)"> <!-- RESTAMOS 66 a la x para ajustar -->
+    <rect width="410" height="184" rx="22" fill="#0F1724" stroke="#26374C"/> <!-- ahora ensanchamos el resto -->
     <text x="24" y="30" class="tiny">BEST RUN</text>
 
     <g transform="translate(24 48)">
-      <rect width="88" height="102" rx="16" fill="#101827" stroke="#2D3E53"/>
-      <text x="44" y="28" class="tiny" text-anchor="middle">ACCURACY</text>
-      <text x="44" y="68" class="metric" text-anchor="middle">0.9986</text>
-      <text x="44" y="88" class="tiny" text-anchor="middle">C03 FULL</text>
+      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="55" y="28" class="tiny" text-anchor="middle">ACCURACY</text>
+      <text x="55" y="68" class="metric" text-anchor="middle">0.9986</text>
+      <text x="55" y="88" class="tiny" text-anchor="middle">C03 FULL</text>
     </g>
 
-    <g transform="translate(128 48)">
-      <rect width="88" height="102" rx="16" fill="#101827" stroke="#2D3E53"/>
-      <text x="44" y="28" class="tiny" text-anchor="middle">RECALL</text>
-      <text x="44" y="68" class="metric" text-anchor="middle">0.9995</text>
-      <text x="44" y="88" class="tiny" text-anchor="middle">ATTACK</text>
+    <g transform="translate(150 48)"> <!-- x+=22 -->
+      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="55" y="28" class="tiny" text-anchor="middle">RECALL</text>
+      <text x="55" y="68" class="metric" text-anchor="middle">0.9995</text>
+      <text x="55" y="88" class="tiny" text-anchor="middle">ATTACK</text>
     </g>
 
-    <g transform="translate(232 48)">
-      <rect width="88" height="102" rx="16" fill="#101827" stroke="#2D3E53"/>
-      <text x="44" y="28" class="tiny" text-anchor="middle">F1</text>
-      <text x="44" y="68" class="metric" text-anchor="middle">0.9988</text>
-      <text x="44" y="88" class="tiny" text-anchor="middle">CHECKED</text>
+    <g transform="translate(276 48)"> <!-- x+=44 -->
+      <rect width="110" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
+      <text x="55" y="28" class="tiny" text-anchor="middle">F1</text> <!-- x+=11 -->
+      <text x="55" y="68" class="metric" text-anchor="middle">0.9988</text>
+      <text x="55" y="88" class="tiny" text-anchor="middle">CHECKED</text>
     </g>
   </g>
 
   <path d="M910 262H1164" stroke="#26374C"/>
-  <text x="916" y="282" class="tiny">VALIDATION // CHECK A / CHECK B / CHECK C</text>
+  <text x="920" y="232" class="tiny">VALIDATED RUN</text>
 </svg>
