@@ -83,8 +83,8 @@ await writeFile(languageCardFile, manualLanguageCard, "utf8");
 try {
   const streakSource = await readFile(streakCardFile, "utf8");
   const streakPatched = streakSource
-    .replace(/<tspan x='0' dy='0'>[^<]+<\/tspan>/, "<tspan x='0' dy='0'>Current year</tspan>")
-    .replace(/<tspan x='0' dy='16'>[^<]+<\/tspan>/, "");
+    .replace(/<tspan x='0' dy='0'>[^<]+<\/tspan><tspan x='0' dy='16'>[^<]+<\/tspan>/, "<tspan x='0' dy='0'>Year To Date</tspan>")
+    // .replace(/<tspan x='0' dy='16'>[^<]+<\/tspan>/, "<tspan x='0' dy='16'>Date</tspan>");
   await writeFile(streakCardFile, streakPatched, "utf8");
 } catch {
   // The workflow may run this script before the local streak asset exists.
