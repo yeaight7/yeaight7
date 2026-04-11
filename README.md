@@ -84,7 +84,6 @@ search, destroy, build
   primary lane : ML + applied AI / cybersecurity systems
   stack        : Machine Learning / SQL / Data Engineering / RL / data-heavy workflows
   build rule   : make it hit first, then make it hold up under scrutiny
-  current      : profile surface tuned to reflect the real work behind it
 ```
 
 <div align="center">
@@ -98,8 +97,8 @@ search, destroy, build
   <br/>
 
 ```txt
-  [ok] streak board is back and color-matched to the telemetry stack
-  [hold] language stack is hard-locked until wider commit telemetry exists
+  [live] streak board is live. Last update: Today
+  [ok] language stack reports the percentage of languages used across all commits
   [ok] contribution panel is the exact rolling last-12-month view
   [live] featured repo is TFG_CYBER_AI
 ```
@@ -145,4 +144,4 @@ search, destroy, build
   <img src="https://img.shields.io/badge/QRDQN-distributional%20RL-00E7FF?style=for-the-badge&labelColor=0D1117" alt="QRDQN" />
 </div>
 
-`TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
+`TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline. [WIP]
