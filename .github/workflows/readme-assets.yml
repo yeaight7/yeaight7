@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - "profile-summary-card-output/**"
+      - "README.md"
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:
@@ -31,11 +32,14 @@ jobs:
           AUTO_PUSH: false
       - name: Postprocess summary cards
         run: node scripts/postprocess-summary-cards.mjs 2077
+      - name: Refresh hidden README marker
+        run: |
+          sed -i "s|^<!-- README_REFRESH:.* -->$|<!-- README_REFRESH: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA} -->|" README.md
       - name: Commit postprocessed summary cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output
+          git add -A profile-summary-card-output README.md
           git diff --staged --quiet && exit 0
           git commit -m "Postprocess summary cards"
           git push

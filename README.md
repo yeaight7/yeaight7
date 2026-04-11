@@ -1,4 +1,5 @@
 <!-- PROFILE README v3 // hybrid signal board -->
+<!-- README_REFRESH: static -->
 
 <div align="center">
   <img src="./assets/hero.svg" alt="yeaight7 animated profile hero" width="100%" />
