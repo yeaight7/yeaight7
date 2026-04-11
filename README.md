@@ -48,7 +48,7 @@ search, destroy, build
 ## Live Telemetry
 
 <div align="center">
-  <table width="92%">
+  <table width="100%">
     <tr>
       <td width="50%" align="center">
         <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
