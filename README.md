@@ -17,8 +17,6 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=yeaight7&style=for-the-badge&color=00e7ff&label=PROFILE+VIEWS" alt="Profile views" />
-  <!-- <img src="https://img.shields.io/github/followers/yeaight7?style=for-the-badge&color=ff4da6&labelColor=0d1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/yeaight7?style=for-the-badge&color=ffe66d&labelColor=0d1117" alt="GitHub stars" /> -->
 </div>
 
 ## Mission Control
