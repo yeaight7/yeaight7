@@ -122,7 +122,7 @@ search, destroy, build
   repo         :  TFG_CYBER_AI
   focus        :  reinforcement-learning defender for malicious traffic detection and blocking
   core data    :  CICIDS2017 (~2.8M flows)
-  best run     :  0.9986 accuracy / 0.9995 attack recall / 0.9988 F1
+  best run     :  0.9986 accuracy  /  0.9995 attack recall  /  0.9988 F1
   shape        :  code + datasets + docs + experiments + report pipeline
 ```
 
