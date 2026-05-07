@@ -131,15 +131,15 @@ search, destroy, build
 ## Featured Artifact
 
 <div align="center">
-  <a href="https://github.com/yeaight7/TFG_CYBER_AI">
-    <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact" width="96%" />
+  <a href="https://github.com/yeaight7/agent-powerups">
+    <img src="./assets/featured-artifact.svg" alt="agent-powerups featured artifact" width="96%" />
   </a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/yeaight7/TFG_CYBER_AI"><img src="https://img.shields.io/badge/TFG__CYBER__AI-RL%20Defender-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="TFG_CYBER_AI repo" /></a>
+  <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT__POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
   <img src="https://img.shields.io/badge/CICIDS2017-2.8M%20flows-FF4DA6?style=for-the-badge&labelColor=0D1117" alt="CICIDS2017 dataset" />
   <img src="https://img.shields.io/badge/QRDQN-distributional%20RL-00E7FF?style=for-the-badge&labelColor=0D1117" alt="QRDQN" />
 </div>
 
-`TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
+`agent-powerups` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
