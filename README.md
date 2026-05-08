@@ -94,11 +94,11 @@ search, destroy, build
   <summary><b>OPEN // signal.log</b></summary>
   <br/>
 
-```txt
+```bash
   [live] streak board is live. Last update: Today
   [ok] language stack reports the percentage of languages used across all commits
   [ok] contribution panel is the exact rolling last-12-month view
-  [live] featured repo is TFG_CYBER_AI
+  [live] featured repo is agent-powerups
 ```
 
 <div align="center">
@@ -114,7 +114,7 @@ search, destroy, build
 
 <div align="center">
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
-      <img src="./assets/artifact-placeholder.svg" alt="TFG_CYBER_AI featured artifact preview" width="96%" />
+      <img src="./assets/tfg-artifact.svg" alt="TFG_CYBER_AI featured artifact preview" width="96%" />
     </a>
   </div>
 
@@ -132,7 +132,7 @@ is a reinforcement-learning cyber defense project built around CICIDS2017, a cus
 
 <div align="center">
   <a href="https://github.com/yeaight7/agent-powerups">
-    <img src="./assets/featured-artifact.svg" alt="agent-powerups featured artifact" width="96%" />
+    <img src="./assets/agent-powerups-artifact.svg" alt="agent-powerups featured artifact" width="96%" />
   </a>
 </div>
 
