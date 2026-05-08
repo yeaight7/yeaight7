@@ -1,5 +1,5 @@
 <!-- PROFILE README v3 // hybrid signal board -->
-<!-- README_REFRESH: 25489839434-1-cd021978586cdf547acbb6cf39e7f24145548292 -->
+<!-- README_REFRESH: 25547275619-1-4a710423495cd9ac98499daa76a5cf6c1d960a2d -->
 
 <div align="center">
   <img src="./assets/hero.svg" alt="yeaight7 animated profile hero" width="100%" />
@@ -125,7 +125,7 @@ search, destroy, build
   best run     :  0.9986 accuracy  /  0.9995 attack recall  /  0.9988 F1
   shape        :  code + datasets + docs + experiments + report pipeline
 ```
-
+is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
 </details>
 
 ## Featured Artifact
@@ -142,4 +142,4 @@ search, destroy, build
   <img src="https://img.shields.io/badge/QRDQN-distributional%20RL-00E7FF?style=for-the-badge&labelColor=0D1117" alt="QRDQN" />
 </div>
 
-`agent-powerups` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
+`agent-powerups` 
