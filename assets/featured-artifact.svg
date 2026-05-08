@@ -33,23 +33,23 @@
   <rect x="34" y="34" width="1212" height="252" rx="18" fill="none" stroke="#27364A"/>
   <path d="M824 34H1086L1246 194V286H824V34Z" fill="#0D1421" fill-opacity="0.48"/>
 
-  <text x="48" y="72" class="hud">FEATURED ARTIFACT // ACTIVE REPO</text>
+  <text x="48" y="72" class="hud">FEATURED ARTIFACT</text>
   <text x="48" y="126" class="title">AGENT-POWERUPS</text>
   <text x="48" y="160" class="body">Make the most of your AI agents with powerful plugins and seamless integration.</text>
   <text x="48" y="188" class="body">Cross-agent interaction. Make your agents invoke secondary assistants</text>
 
-  <g transform="translate(48 208)">
-    <rect width="160" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="80" y="20" class="chip" text-anchor="middle">CROSS-AGENT SUPPORT</text>
-    <rect x="175" width="90" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="220" y="20" class="chip" text-anchor="middle">SKILLS</text>
-    <rect x="280" width="156" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="358" y="20" class="chip" text-anchor="middle">AGENT PLUGINS</text>
-    <rect x="450" width="150" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
-    <text x="525" y="20" class="chip" text-anchor="middle">DEV TOOLS</text>
+  <g transform="translate(50 208)">
+    <rect width="180" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="90" y="20" class="chip" text-anchor="middle">CROSS-AGENT SUPPORT</text>
+    <rect x="190" width="90" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="235" y="20" class="chip" text-anchor="middle">SKILLS</text>
+    <rect x="290" width="140" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="360" y="20" class="chip" text-anchor="middle">AGENT PLUGINS</text>
+    <rect x="440" width="120" height="32" rx="17" fill="#101827" stroke="#2D3E53"/>
+    <text x="500" y="20" class="chip" text-anchor="middle">DEV TOOLS</text>
   </g>
 
-  <g transform="translate(48 270)">
+  <g transform="translate(50 270)">
     <text class="tiny">PATH // yeaight7 / agent-powerups / skills + plugins + commands </text>
   </g>
 
