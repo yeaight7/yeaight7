@@ -116,7 +116,7 @@ search, destroy, build
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
       <img src="./assets/tfg-artifact.svg" alt="TFG_CYBER_AI featured artifact preview" width="96%" />
     </a>
-  </div>
+</div>
 
 ```txt
   repo         :  TFG_CYBER_AI
@@ -125,7 +125,24 @@ search, destroy, build
   best run     :  0.9986 accuracy  /  0.9995 attack recall  /  0.9988 F1
   shape        :  code + datasets + docs + experiments + report pipeline
 ```
-is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
+`TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
+
+
+<div align="center">
+    <a href="https://github.com/yeaight7/awesome-ai-devtools">
+      <img src="./assets/awesome-artifact.svg" alt="awesome-ai-devtools featured artifact preview" width="96%" />
+    </a>
+</div>
+
+```txt
+  repo         :  awesome-ai-devtools
+  core         :  The open-source map of the AI developer tooling ecosystem
+  content      :  79 tools | 16 active shelves | metadata | generated README  
+  focus        :  AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished
+  info         :  metadata + official sources + repository
+```
+`awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
+
 </details>
 
 ## Featured Artifact
@@ -138,8 +155,8 @@ is a reinforcement-learning cyber defense project built around CICIDS2017, a cus
 
 <div align="center">
   <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT__POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
-  <img src="https://img.shields.io/badge/CICIDS2017-2.8M%20flows-FF4DA6?style=for-the-badge&labelColor=0D1117" alt="CICIDS2017 dataset" />
-  <img src="https://img.shields.io/badge/QRDQN-distributional%20RL-00E7FF?style=for-the-badge&labelColor=0D1117" alt="QRDQN" />
+  <img src="https://img.shields.io/badge/SKILLS-63+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
+  <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-16+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
 </div>
 
-`agent-powerups` 
+`agent-powerups` is a collection of enhancements for AI agents, designed to improve their performance and capabilities in various applications. Agent compatible.
