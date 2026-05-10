@@ -55,29 +55,29 @@
 
   <g transform="translate(850 50)">
     <rect width="180" height="100" rx="8" fill="#0D1421" fill-opacity="0.6" stroke="#2D3E53" stroke-width="1.5"></rect>
-    <text x="90" y="18" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">ENTRIES</text>
-    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">79+</text>
-    <text x="90" y="88" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">and counting</text>
+    <text x="90" y="18" fill="#8CA3BA" font-weight="750" font-size="13px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">ENTRIES</text>
+    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">262</text>
+    <text x="90" y="88" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">reviewed entries</text>
   </g>
 
   <g transform="translate(1050 50)">
     <rect width="180" height="100" rx="8" fill="#0D1421" fill-opacity="0.6" stroke="#2D3E53" stroke-width="1.5"></rect>
-    <text x="90" y="18" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">CATEGORIES</text>
-    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">16</text>
+    <text x="90" y="18" fill="#8CA3BA" font-weight="750" font-size="13px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">CATEGORIES</text>
+    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">17</text>
     <text x="90" y="88" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">and counting</text>
   </g>
 
   <g transform="translate(850 165)">
     <rect width="180" height="100" rx="8" fill="#0D1421" fill-opacity="0.6" stroke="#2D3E53" stroke-width="1.5"></rect>
-    <text x="90" y="18" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">REPOSITORY</text>
+    <text x="90" y="18" fill="#8CA3BA" font-weight="750" font-size="13px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">REPOSITORY</text>
     <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">ACTIVE</text>
     <text x="90" y="88" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">STATUS</text>
   </g>
 
   <g transform="translate(1050 165)">
     <rect width="180" height="100" rx="8" fill="#0D1421" fill-opacity="0.6" stroke="#2D3E53" stroke-width="1.5"></rect>
-    <text x="90" y="18" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">STARS</text>
-    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">2</text>
+    <text x="90" y="18" fill="#8CA3BA" font-weight="750" font-size="13px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">STARS</text>
+    <text x="90" y="58" fill="#FFFFFF" font-weight="900" font-size="32px" font-family="'Arial Black', 'Segoe UI', sans-serif" text-anchor="middle">3</text>
     <text x="90" y="88" fill="#8CA3BA" font-weight="700" font-size="11px" font-family="'Segoe UI', Tahoma, sans-serif" letter-spacing="1px" text-anchor="middle">star if you find it useful</text>
   </g>
 
