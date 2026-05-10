@@ -59,26 +59,26 @@
 
     <g transform="translate(24 48)">
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="28" class="tiny" text-anchor="middle">Plugins</text>
-      <text x="60" y="68" class="metric" text-anchor="middle">15</text>
-      <text x="60" y="88" class="tiny" text-anchor="middle">Bundles</text>
+      <text x="60" y="25" class="tiny" text-anchor="middle">Plugins</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">17</text>
+      <text x="62" y="85" class="tiny" text-anchor="middle">Bundles</text>
     </g>
 
     <g transform="translate(160 48)"> <!-- x+=22 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="68" class="metric" text-anchor="middle">63</text>
-      <text x="60" y="88" class="tiny" text-anchor="middle">Skills</text>
-      <text x="60" y="28" class="tiny" text-anchor="middle">Compatible</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">63</text>
+      <text x="60" y="85" class="tiny" text-anchor="middle">Skills</text>
+      <text x="62" y="25" class="tiny" text-anchor="middle">Compatible</text>
     </g>
 
     <g transform="translate(296 48)"> <!-- x+=44 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="28" class="tiny" text-anchor="middle">Tools</text> <!-- x+=11 -->
-      <text x="60" y="68" class="metric" text-anchor="middle">5</text>
-      <text x="60" y="88" class="tiny" text-anchor="middle">New</text>
+      <text x="60" y="25" class="tiny" text-anchor="middle">Stars</text> <!-- x+=11 -->
+      <text x="60" y="62" class="metric" text-anchor="middle">4</text>
+      <text x="62" y="85" class="tiny" text-anchor="middle">⭐</text>
     </g>
   </g>
 
   <!-- <path d="M910 262H1164" stroke="#FF0055"/> -->
-  <text x="945" y="232" class="tiny">BEST SKILLSET</text>
+  <text x="840" y="232" class="tiny">Save and share your favorite skills!</text>
 </svg>
