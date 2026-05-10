@@ -137,7 +137,7 @@ search, destroy, build
 ```txt
   repo         :  awesome-ai-devtools
   core         :  The open-source map of the AI developer tooling ecosystem
-  content      :  79 tools | 16 active shelves | metadata | generated README  
+  content      :  262 tools | 17 active shelves | metadata | generated README  
   focus        :  AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished
   info         :  metadata + official sources + repository
 ```
