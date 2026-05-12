@@ -7,10 +7,9 @@ on:
     paths-ignore:
       - "profile-summary-card-output/**"
       - "assets/generated/**"
-      - "README.md"
   schedule:
     - cron: "0 8 * * *"
-    - cron: "10 20 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,7 +29,7 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
-          UTC_OFFSET: -2
+          UTC_OFFSET: 0
           AUTO_PUSH: false
       - name: Cache streak card locally
         run: |
