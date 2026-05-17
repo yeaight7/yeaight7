@@ -113,6 +113,22 @@ search, destroy, build
   <br/>
 
 <div align="center">
+    <a href="https://github.com/yeaight7/awesome-ai-devtools">
+      <img src="./assets/awesome-artifact.svg" alt="awesome-ai-devtools featured artifact preview" width="96%" />
+    </a>
+</div>
+
+```
+  repo        :  awesome-ai-devtools
+  core        :  The open-source map of the AI developer tooling ecosystem
+  content     :  262 tools | 17 active shelves | metadata | generated README  
+  focus       :  AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished
+  info        :  metadata + official sources + repository
+```
+`awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
+
+
+<div align="center">
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
       <img src="./assets/tfg-artifact.svg" alt="TFG_CYBER_AI featured artifact preview" width="96%" />
     </a>
@@ -126,22 +142,6 @@ search, destroy, build
   shape        :  code + datasets + docs + experiments + report pipeline
 ```
 `TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
-
-
-<div align="center">
-    <a href="https://github.com/yeaight7/awesome-ai-devtools">
-      <img src="./assets/awesome-artifact.svg" alt="awesome-ai-devtools featured artifact preview" width="96%" />
-    </a>
-</div>
-
-```txt
-  repo         :  awesome-ai-devtools
-  core         :  The open-source map of the AI developer tooling ecosystem
-  content      :  262 tools | 17 active shelves | metadata | generated README  
-  focus        :  AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished
-  info         :  metadata + official sources + repository
-```
-`awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
 
 </details>
 
