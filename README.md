@@ -122,7 +122,7 @@ search, destroy, build
   repo        :  awesome-ai-devtools
   core        :  The open-source map of the AI developer tooling ecosystem
   content     :  262 tools | 17 active shelves | metadata | generated README  
-  focus       :  AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished
+  focus       :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
   info        :  metadata + official sources + repository
 ```
 `awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
