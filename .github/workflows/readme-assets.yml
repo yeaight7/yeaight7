@@ -30,7 +30,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: 2
-          AUTO_PUSH: false
+          AUTO_PUSH: true
       - name: Cache streak card locally
         run: |
           mkdir -p assets/generated
