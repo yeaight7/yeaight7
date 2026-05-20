@@ -29,7 +29,7 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
-          UTC_OFFSET: 0
+          UTC_OFFSET: 2
           AUTO_PUSH: false
       - name: Cache streak card locally
         run: |
