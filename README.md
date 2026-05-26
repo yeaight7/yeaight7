@@ -125,6 +125,7 @@ search, destroy, build
   focus       :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
   info        :  metadata + official sources + repository
 ```
+
 `awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
 
 
@@ -141,6 +142,7 @@ search, destroy, build
   best run     :  0.9986 accuracy  /  0.9995 attack recall  /  0.9988 F1
   shape        :  code + datasets + docs + experiments + report pipeline
 ```
+
 `TFG_CYBER_AI` is a reinforcement-learning cyber defense project built around CICIDS2017, a custom Gymnasium defender environment, QRDQN training, validation checks, and a full paper/report pipeline.
 
 </details>
