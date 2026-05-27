@@ -74,7 +74,7 @@
     <g transform="translate(296 48)"> <!-- x+=44 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
       <text x="60" y="25" class="tiny" text-anchor="middle">Stars</text> <!-- x+=11 -->
-      <text x="60" y="62" class="metric" text-anchor="middle">5</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">6</text>
       <text x="62" y="85" class="tiny" text-anchor="middle">⭐</text>
     </g>
   </g>
