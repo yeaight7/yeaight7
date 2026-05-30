@@ -1,3 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200"><style>* {
-          font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif
-        }</style><rect x="1" y="1" rx="5" ry="5" height="99%" width="99.41176470588235%" stroke="#141321" stroke-width="1" fill="#141321" stroke-opacity="1"></rect><text x="30" y="40" style="font-size: 22px; fill: #ff0055;">Top Languages by Commit</text><g transform="translate(0,40)"><g transform="translate(40,0)"><rect y="18" width="14" height="14" fill="#3178c6" stroke="#141321" style="stroke-width: 1px;"></rect><rect y="43.2" width="14" height="14" fill="#3D6117" stroke="#141321" style="stroke-width: 1px;"></rect><rect y="68.4" width="14" height="14" fill="#3572A5" stroke="#141321" style="stroke-width: 1px;"></rect><rect y="93.60000000000002" width="14" height="14" fill="#f1e05a" stroke="#141321" style="stroke-width: 1px;"></rect><rect y="118.80000000000001" width="14" height="14" fill="#e16737" stroke="#141321" style="stroke-width: 1px;"></rect><text x="16.8" y="30" style="fill: #03d8f3; font-size: 14px;">TypeScript</text><text x="16.8" y="55.2" style="fill: #03d8f3; font-size: 14px;">TeX</text><text x="16.8" y="80.4" style="fill: #03d8f3; font-size: 14px;">Python</text><text x="16.8" y="105.60000000000002" style="fill: #03d8f3; font-size: 14px;">JavaScript</text><text x="16.8" y="130.8" style="fill: #03d8f3; font-size: 14px;">MATLAB</text></g><g transform="translate( 230, 80 )"><g class="arc"><path d="M3.67394039744206e-15,-60A60,60,0,1,1,-9.493520034672514,59.244181801686416L-5.5378866868923,34.55910605098374A35,35,0,1,0,2.1431318985078682e-15,-35Z" style="fill: #3178c6; stroke-width: 2px;" stroke="#141321"></path></g><g class="arc"><path d="M-9.493520034672514,59.244181801686416A60,60,0,0,1,-58.08965113195827,-15.019734730260044L-33.88562982697566,-8.761511925985026A35,35,0,0,0,-5.5378866868923,34.55910605098374Z" style="fill: #3D6117; stroke-width: 2px;" stroke="#141321"></path></g><g class="arc"><path d="M-58.08965113195827,-15.019734730260044A60,60,0,0,1,-40.5746581354593,-44.200646117343204L-23.668550579017925,-25.783710235116867A35,35,0,0,0,-33.88562982697566,-8.761511925985026Z" style="fill: #3572A5; stroke-width: 2px;" stroke="#141321"></path></g><g class="arc"><path d="M-40.5746581354593,-44.200646117343204A60,60,0,0,1,-18.15624093534243,-57.18698204222527L-10.591140545616419,-33.35907285796474A35,35,0,0,0,-23.668550579017925,-25.783710235116867Z" style="fill: #f1e05a; stroke-width: 2px;" stroke="#141321"></path></g><g class="arc"><path d="M-18.15624093534243,-57.18698204222527A60,60,0,0,1,-1.1021821192326178e-14,-60L-6.429395695523604e-15,-35A35,35,0,0,0,-10.591140545616419,-33.35907285796474Z" style="fill: #e16737; stroke-width: 2px;" stroke="#141321"></path></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
+  <style>
+    * { font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; }
+    .title { fill: #ff0055; font-size: 22px; }
+    .label { fill: #03d8f3; font-size: 14px; }
+    .tiny { fill: #8ca3ba; font-size: 10px; }
+  </style>
+  <rect x="1" y="1" rx="5" ry="5" height="99%" width="99.41176470588235%" stroke="#141321" stroke-width="1" fill="#141321" stroke-opacity="1"/>
+  <text x="30" y="40" class="title">Top Languages by Commit</text>
+
+  <g transform="translate(28,62)">
+    <rect y="0" width="12" height="12" fill="#26fc00"/>
+    <text x="20" y="11" class="label">Python</text>
+
+    <rect y="24" width="12" height="12" fill="#0059ff"/>
+    <text x="20" y="35" class="label">C++</text>
+
+    <rect y="48" width="12" height="12" fill="#E38C00"/>
+    <text x="20" y="59" class="label">SQL</text>
+
+    <rect y="72" width="12" height="12" fill="#F1E05A"/>
+    <text x="20" y="83" class="label">JavaScript</text>
+
+    <rect y="96" width="12" height="12" fill="#c60fdf"/>
+    <text x="20" y="107" class="label">Rust</text>
+  </g>
+
+  <g transform="translate(244,110)">
+    <!-- <circle cx="0" cy="0" r="40" fill="none" stroke="#1b2232" stroke-width="22"/> -->
+	<circle cx="0" cy="0" r="40" fill="none" stroke="#c60fdf" stroke-width="40" stroke-linecap="butt"
+      stroke-dasharray="20 300" stroke-dashoffset="0" transform="rotate(-90)"/>
+	<circle cx="0" cy="0" r="40" fill="none" stroke="#F1E05A" stroke-width="40" stroke-linecap="butt"
+      stroke-dasharray="20 300" stroke-dashoffset="-20" transform="rotate(-90)"/>
+	<circle cx="0" cy="0" r="40" fill="none" stroke="#E38C00" stroke-width="40" stroke-linecap="butt"
+      stroke-dasharray="65 300" stroke-dashoffset="-40" transform="rotate(-90)"/>
+	<circle cx="0" cy="0" r="40" fill="none" stroke="#0059ff" stroke-width="40" stroke-linecap="butt"
+      stroke-dasharray="70 300" stroke-dashoffset="-105" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#26fc00" stroke-width="40" stroke-linecap="butt"
+      stroke-dasharray="125 300" stroke-dashoffset="-175" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="28" fill="#141321"/>
+  </g>
+</svg>
