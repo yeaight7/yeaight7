@@ -49,8 +49,8 @@ search, destroy, build
         <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
       </td>
       <td width="50%" align="center">
-        <!-- <img src="./assets/generated/streak-stats.svg" alt="GitHub streak card" width="100%" /> -->
-        <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" />
+        <img src="./assets/generated/streak-stats.svg" alt="GitHub streak card" width="100%" />
+        <!-- <img src="./profile-summary-card-output/2077/3-stats.svg" alt="GitHub summary stats card" width="100%" /> -->
       </td>
     </tr>
     <tr>
