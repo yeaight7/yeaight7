@@ -8,8 +8,9 @@ on:
       - "profile-summary-card-output/**"
       - "assets/generated/**"
   schedule:
-    - cron: "0 8 * * *"
-    - cron: "0 20 * * *"
+    - cron: "24 0 * * *"
+    - cron: "41 8 * * *"
+    - cron: "37 16 * * *"
   workflow_dispatch:
 
 permissions:
