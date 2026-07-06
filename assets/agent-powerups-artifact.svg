@@ -66,7 +66,7 @@
 
     <g transform="translate(160 48)"> <!-- x+=22 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="62" class="metric" text-anchor="middle">71</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">113</text>
       <text x="60" y="85" class="tiny" text-anchor="middle">Skills</text>
       <text x="62" y="25" class="tiny" text-anchor="middle">Compatible</text>
     </g>
