@@ -122,7 +122,7 @@ search, destroy, build
 ```
   repo      :  awesome-ai-devtools
   core      :  The open-source map of the AI developer tooling ecosystem
-  content   :  262 tools | 17 active shelves | metadata | generated README  
+  content   :  363 total tools | 276 reviewed | 18 active shelves | generated README  
   focus     :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
   info      :  metadata + official sources + repository
 ```
@@ -158,8 +158,8 @@ search, destroy, build
 
 <div align="center">
   <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT__POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
-  <img src="https://img.shields.io/badge/SKILLS-63+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
-  <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-16+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
+  <img src="https://img.shields.io/badge/SKILLS-113+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
+  <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-21+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
 </div>
 
 `agent-powerups` is a collection of enhancements for AI agents, designed to improve their performance and capabilities in various applications. Agent compatible.
