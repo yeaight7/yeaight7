@@ -47,5 +47,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A profile-summary-card-output assets/generated README.md
           git diff --staged --quiet && exit 0
-          git commit -m "Postprocess summary cards"
+          git commit -m "Postprocess summary cards bih"
           git push
