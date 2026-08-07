@@ -11,12 +11,12 @@
 
 <div align="center">
   <a href="#spotify-signal"><img src="https://img.shields.io/badge/OPEN-spotify_signal-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Open Spotify Signal" /></a>
-  <a href="#live-telemetry"><img src="https://img.shields.io/badge/OPEN-live_telemetry-00E7FF?style=for-the-badge&labelColor=0D1117" alt="Open Live Telemetry" /></a>
+  <a href="#live-telemetry"><img src="https://img.shields.io/badge/OPEN-live_telemetry-9D00FF?style=for-the-badge&labelColor=0D1117" alt="Open Live Telemetry" /></a>
   <a href="#featured-artifact"><img src="https://img.shields.io/badge/OPEN-featured_artifact-FFE66D?style=for-the-badge&labelColor=0D1117" alt="Open Featured Artifact" /></a>
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yeaight7&style=for-the-badge&color=00e7ff&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=yeaight7&style=for-the-badge&color=1F51FF&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
 
 ## Mission Control
@@ -103,7 +103,7 @@ search, destroy, build
 ```
 
 <div align="center">
-    <a href="https://github.com/yeaight7?tab=stars"><img src="https://img.shields.io/badge/STAR_CACHE-FFE66D?style=for-the-badge&logo=github&logoColor=black&labelColor=0D1117" alt="Star cache" /></a>
+    <a href="https://github.com/yeaight7?tab=repositories&sort=stargazers"><img src="https://img.shields.io/badge/STAR%20CACHE-30%20%E2%AD%90-9D00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Star cache" /></a>
     <a href="https://github.com/yeaight7?tab=followers"><img src="https://img.shields.io/badge/FOLLOW_SIGNAL-00E7FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Follow signal" /></a>
     <a href="https://github.com/yeaight7/actions"><img src="https://img.shields.io/badge/ACTIONS_CORE-FF4DA6?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0D1117" alt="Actions core" /></a>
   </div>
@@ -114,21 +114,18 @@ search, destroy, build
   <br/>
 
 <div align="center">
-    <a href="https://github.com/yeaight7/awesome-ai-devtools">
-      <img src="./assets/awesome-artifact.svg" alt="awesome-ai-devtools featured artifact preview" width="96%" />
-    </a>
+  <a href="https://github.com/yeaight7/agent-powerups">
+    <img src="./assets/agent-powerups-artifact.svg" alt="agent-powerups featured artifact" width="96%" />
+  </a>
 </div>
 
-```
-  repo      :  awesome-ai-devtools
-  core      :  The open-source map of the AI developer tooling ecosystem
-  content   :  363 total tools | 276 reviewed | 18 active shelves | generated README  
-  focus     :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
-  info      :  metadata + official sources + repository
-```
+<div align="center">
+  <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT%20POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
+  <img src="https://img.shields.io/badge/SKILLS-113+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
+  <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-21+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
+</div>
 
-`awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
-
+`agent-powerups` is a collection of enhancements for AI agents, designed to improve their performance and capabilities in various applications. Agent compatible.
 
 <div align="center">
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
@@ -151,15 +148,23 @@ search, destroy, build
 ## Featured Artifact
 
 <div align="center">
-  <a href="https://github.com/yeaight7/agent-powerups">
-    <img src="./assets/agent-powerups-artifact.svg" alt="agent-powerups featured artifact" width="96%" />
-  </a>
+    <a href="https://github.com/yeaight7/awesome-ai-devtools">
+      <img src="./assets/awesome-artifact.svg" alt="awesome-ai-devtools featured artifact preview" width="96%" />
+    </a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT__POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
-  <img src="https://img.shields.io/badge/SKILLS-113+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
-  <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-21+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
+  <a href="https://github.com/yeaight7/awesome-ai-devtools"><img src="https://img.shields.io/badge/AWESOME%20AI%20DEVTOOLS-ACTIVE-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="awesome ai devtools repo" /></a>
+  <img src="https://img.shields.io/badge/TOOLS-363+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="TOTAL TOOLS" />
+  <img src="https://img.shields.io/badge/REVIEWED%20TOOLS-279-0D1117?style=for-the-badge&labelColor=0315bc" alt="REVIEWED TOOLS" />
 </div>
 
-`agent-powerups` is a collection of enhancements for AI agents, designed to improve their performance and capabilities in various applications. Agent compatible.
+```
+  repo      :  awesome-ai-devtools
+  core      :  The open-source map of the AI developer tooling ecosystem
+  content   :  363 total tools | 279 reviewed | 18 active categories | generated README  
+  focus     :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
+  info      :  metadata + official sources + repository
+```
+
+`awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
