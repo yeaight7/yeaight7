@@ -10,19 +10,19 @@
 
   <g transform="translate(28,62)">
     <rect y="0" width="12" height="12" fill="#26fc00"/>
-    <text x="20" y="11" class="label">Python</text>
+    <text x="20" y="11" class="label">C++</text>
 
     <rect y="24" width="12" height="12" fill="#0059ff"/>
-    <text x="20" y="35" class="label">C++</text>
+    <text x="20" y="35" class="label">Rust</text>
 
     <rect y="48" width="12" height="12" fill="#E38C00"/>
     <text x="20" y="59" class="label">SQL</text>
 
     <rect y="72" width="12" height="12" fill="#F1E05A"/>
-    <text x="20" y="83" class="label">JavaScript</text>
+    <text x="20" y="83" class="label">Python</text>
 
     <rect y="96" width="12" height="12" fill="#c60fdf"/>
-    <text x="20" y="107" class="label">Rust</text>
+    <text x="20" y="107" class="label">Go</text>
   </g>
 
   <g transform="translate(244,110)">
