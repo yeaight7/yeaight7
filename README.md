@@ -1,3 +1,5 @@
+
+
 <!-- PROFILE README v3 // hybrid signal board -->
 <!-- README_REFRESH: 32278928512-1-17d74eca59b6d467cc200335858af7a07ca25d18 -->
 
@@ -99,7 +101,7 @@ search, destroy, build
   [live] streak board is live. Last update: Today
   [ok] language stack reports the percentage of languages used across all commits
   [ok] contribution panel is the exact rolling last-12-month view
-  [live] featured repo is agent-powerups
+  [live] featured repo is awesome-ai-devtools
 ```
 
 <div align="center">
