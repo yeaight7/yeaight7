@@ -99,7 +99,7 @@ search, destroy, build
   [live] streak board is live. Last update: Today
   [ok] language stack reports the percentage of languages used across all commits
   [ok] contribution panel is the exact rolling last-12-month view
-  [live] featured repo is agent-powerups
+  [live] featured repo is awesome-ai-devtools
 ```
 
 <div align="center">
