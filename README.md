@@ -160,11 +160,11 @@ search, destroy, build
 </div>
 
 ```
-  repo      :  awesome-ai-devtools
-  core      :  The open-source map of the AI developer tooling ecosystem
-  content   :  363 total tools | 279 reviewed | 18 active categories | generated README  
-  focus     :  AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
-  info      :  metadata + official sources + repository
+  repo    : awesome-ai-devtools
+  core    : The open-source map of the AI developer tooling ecosystem
+  content : 363 total tools | 279 reviewed | 18 active categories | generated README  
+  focus   : AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
+  info    : metadata + official sources + repository
 ```
 
 `awesome-ai-devtools` is an open-source project that provides a comprehensive map of the AI developer tooling ecosystem.
