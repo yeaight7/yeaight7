@@ -1,5 +1,5 @@
 <!-- PROFILE README v3 // hybrid signal board -->
-<!-- README_REFRESH: 36528291641-1-ae1e3071642324d8178ebb85970b245d638e11e2 -->
+<!-- README_REFRESH: 36587233629-1-8c8e0b2c1d6e9d9604984373da46354b1ddc7c43 -->
 
 <div align="center">
   <img src="./assets/hero.svg" alt="yeaight7 animated profile hero" width="100%" />
