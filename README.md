@@ -103,7 +103,7 @@ search, destroy, build
 ```
 
 <div align="center">
-    <a href="https://github.com/yeaight7?tab=repositories&sort=stargazers"><img src="https://img.shields.io/badge/STAR%20CACHE-30%20%E2%AD%90-9D00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Star cache" /></a>
+    <a href="https://github.com/yeaight7?tab=repositories&sort=stargazers"><img src="https://img.shields.io/badge/STAR%20CACHE-40%20%E2%AD%90-9D00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Star cache" /></a>
     <a href="https://github.com/yeaight7?tab=followers"><img src="https://img.shields.io/badge/FOLLOW_SIGNAL-00E7FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Follow signal" /></a>
     <a href="https://github.com/yeaight7/actions"><img src="https://img.shields.io/badge/ACTIONS_CORE-FF4DA6?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0D1117" alt="Actions core" /></a>
   </div>
@@ -121,11 +121,11 @@ search, destroy, build
 
 <div align="center">
   <a href="https://github.com/yeaight7/agent-powerups"><img src="https://img.shields.io/badge/AGENT%20POWERUPS-DEV%20TOOLS-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="agent-powerups repo" /></a>
-  <img src="https://img.shields.io/badge/SKILLS-113+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
+  <img src="https://img.shields.io/badge/SKILLS-114+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="SKILLS" />
   <img src="https://img.shields.io/badge/PLUGIN%20BUNDLES-21+-0D1117?style=for-the-badge&labelColor=0315bc" alt="PLUGIN BUNDLES" />
 </div>
 
-`agent-powerups` is a collection of enhancements for AI agents, designed to improve their performance and capabilities in various applications. Agent compatible.
+`agent-powerups` is a collection of reusable skills, slash commands, MCP configs, hooks, AGENTS.md templates, and workflows for coding agents. It installs through the `apx` CLI and targets Claude Code, Codex, Antigravity CLI, Cursor, and more.
 
 <div align="center">
     <a href="https://github.com/yeaight7/TFG_CYBER_AI">
@@ -155,14 +155,15 @@ search, destroy, build
 
 <div align="center">
   <a href="https://github.com/yeaight7/awesome-ai-devtools"><img src="https://img.shields.io/badge/AWESOME%20AI%20DEVTOOLS-ACTIVE-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="awesome ai devtools repo" /></a>
-  <img src="https://img.shields.io/badge/TOOLS-363+-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="TOTAL TOOLS" />
-  <img src="https://img.shields.io/badge/REVIEWED%20TOOLS-279-0D1117?style=for-the-badge&labelColor=0315bc" alt="REVIEWED TOOLS" />
+  <img src="https://img.shields.io/badge/TOOLS-385-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="TOTAL TOOLS" />
+  <img src="https://img.shields.io/badge/REVIEWED%20TOOLS-297-0D1117?style=for-the-badge&labelColor=0315bc" alt="REVIEWED TOOLS" />
+  <a href="https://github.com/yeaight7/awesome-ai-devtools/releases/tag/v0.3.0"><img src="https://img.shields.io/badge/RELEASE-v0.3.0-0D1117?style=for-the-badge&labelColor=9D00FF" alt="Latest release v0.3.0" /></a>
 </div>
 
 ```
   repo    : awesome-ai-devtools
   core    : The open-source map of the AI developer tooling ecosystem
-  content : 363 total tools | 279 reviewed | 18 active categories | generated README  
+  content : 385 total tools | 297 reviewed | 88 draft | 18 active categories | generated README
   focus   : AI dev tooling changes quickly. This directory keeps entries in structured metadata so view can stay polished
   info    : metadata + official sources + repository
 ```
