@@ -4,7 +4,6 @@ import { join } from "node:path";
 const targetTheme = process.argv[2] ?? "2077";
 const outputRoot = "profile-summary-card-output";
 const languageCardFile = join(outputRoot, targetTheme, "2-most-commit-language.svg");
-const streakCardFile = join("assets", "generated", "streak-stats.svg");
 
 const manualLanguageCard = `<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
   <style>
@@ -79,13 +78,3 @@ for (const item of replacements) {
 }
 
 await writeFile(languageCardFile, manualLanguageCard, "utf8");
-
-try {
-  const streakSource = await readFile(streakCardFile, "utf8");
-  const streakPatched = streakSource
-    .replace(/<tspan x='0' dy='0'>[^<]+<\/tspan><tspan x='0' dy='16'>[^<]+<\/tspan>/, "<tspan x='0' dy='0'>Year To Date</tspan>")
-    // .replace(/<tspan x='0' dy='16'>[^<]+<\/tspan>/, "<tspan x='0' dy='16'>Date</tspan>");
-  await writeFile(streakCardFile, streakPatched, "utf8");
-} catch {
-  // The workflow may run this script before the local streak asset exists.
-}
