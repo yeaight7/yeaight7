@@ -16,6 +16,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: readme-assets-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   summary-cards:
     runs-on: ubuntu-latest
@@ -30,22 +34,31 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
-          UTC_OFFSET: 2
-          AUTO_PUSH: true
+          TIME_ZONE: Europe/Madrid
+          THEME: 2077
+          AUTO_PUSH: false
       - name: Cache streak card locally
         run: |
-          mkdir -p assets/generated
-          curl --fail --silent --show-error --location "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" -o assets/generated/streak-stats.svg
+          python scripts/cache-streak.py "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&background=141321&border=141321&stroke=03D8F3&ring=FF0055&fire=FCEE0C&currStreakNum=03D8F3&sideNums=03D8F3&currStreakLabel=FF0055&sideLabels=03D8F3&dates=8CA3BA&border_radius=5&card_width=340&card_height=200" assets/generated/streak-stats.svg
+      - name: Validate generated cards
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          for name in ("0-profile-details.svg", "3-stats.svg", "4-productive-time.svg"):
+              path = Path("profile-summary-card-output/2077") / name
+              if ET.parse(path).getroot().tag != "{http://www.w3.org/2000/svg}svg":
+                  raise ValueError(f"Invalid SVG: {path}")
+          PY
       - name: Postprocess summary cards
         run: node scripts/postprocess-summary-cards.mjs 2077
-      - name: Refresh hidden README marker
-        run: |
-          sed -i "s|^<!-- README_REFRESH:.* -->$|<!-- README_REFRESH: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA} -->|" README.md
       - name: Commit postprocessed summary cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output assets/generated README.md
+          git add -A profile-summary-card-output assets/generated
           git diff --staged --quiet && exit 0
-          git commit -m "Postprocess summary cards bih"
+          sed -i "s|^<!-- README_REFRESH:.* -->$|<!-- README_REFRESH: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA} -->|" README.md
+          git add README.md
+          git commit -m "Update profile cards"
           git push
