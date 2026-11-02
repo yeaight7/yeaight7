@@ -60,22 +60,22 @@
     <g transform="translate(24 48)">
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
       <text x="60" y="25" class="tiny" text-anchor="middle">Plugins</text>
-      <text x="60" y="62" class="metric" text-anchor="middle">+</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">21</text>
       <text x="62" y="85" class="tiny" text-anchor="middle">Bundles</text>
     </g>
 
     <g transform="translate(160 48)"> <!-- x+=22 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="62" class="metric" text-anchor="middle">+</text>
+      <text x="60" y="62" class="metric" text-anchor="middle">114</text>
       <text x="60" y="85" class="tiny" text-anchor="middle">Skills</text>
       <text x="62" y="25" class="tiny" text-anchor="middle">Compatible</text>
     </g>
 
     <g transform="translate(296 48)"> <!-- x+=44 -->
       <rect width="120" height="102" rx="16" fill="#101827" stroke="#2D3E53"/> <!-- w+=22 -->
-      <text x="60" y="25" class="tiny" text-anchor="middle">Open</text>
-      <text x="60" y="62" class="metric" text-anchor="middle">CLI</text>
-      <text x="62" y="85" class="tiny" text-anchor="middle">apx</text>
+      <text x="60" y="25" class="tiny" text-anchor="middle">Stars</text> <!-- x+=11 -->
+      <text x="60" y="62" class="metric" text-anchor="middle">8</text>
+      <text x="62" y="85" class="tiny" text-anchor="middle">⭐</text>
     </g>
   </g>
 
