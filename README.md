@@ -155,15 +155,15 @@ search, destroy, build
 
 <div align="center">
   <a href="https://github.com/yeaight7/awesome-ai-devtools"><img src="https://img.shields.io/badge/AWESOME%20AI%20DEVTOOLS-ACTIVE-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="awesome ai devtools repo" /></a>
-  <img src="https://img.shields.io/badge/TOOLS-385-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="TOTAL TOOLS" />
-  <img src="https://img.shields.io/badge/REVIEWED%20TOOLS-297-0D1117?style=for-the-badge&labelColor=0315bc" alt="REVIEWED TOOLS" />
-  <a href="https://github.com/yeaight7/awesome-ai-devtools/releases/tag/v0.3.0"><img src="https://img.shields.io/badge/RELEASE-v0.3.0-0D1117?style=for-the-badge&labelColor=9D00FF" alt="Latest release v0.3.0" /></a>
+  <img src="https://img.shields.io/badge/TOOLS-396-0D1117?style=for-the-badge&labelColor=FF4DA6" alt="TOTAL TOOLS" />
+  <img src="https://img.shields.io/badge/REVIEWED%20TOOLS-308-0D1117?style=for-the-badge&labelColor=0315bc" alt="REVIEWED TOOLS" />
+  <a href="https://github.com/yeaight7/awesome-ai-devtools/releases/tag/v0.4.0"><img src="https://img.shields.io/badge/RELEASE-v0.4.0-0D1117?style=for-the-badge&labelColor=9D00FF" alt="Latest release v0.4.0" /></a>
 </div>
 
 ```
 repo    : awesome-ai-devtools
 core    : The open-source map of the AI developer tooling ecosystem
-content : 390 total tools | 302 reviewed | 88 draft | 18 active categories | generated README
+content : 396 total tools | 308 reviewed | 88 draft | 18 active categories | generated README
 focus   : AI dev tooling changes quickly. This directory keeps entries in structured metadata so view stays polished
 info    : metadata + official sources + repository
 ```
